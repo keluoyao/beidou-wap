@@ -1,0 +1,5663 @@
+body {
+    margin: 0vw;
+    padding: 0vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.gray {
+    width: 100vw;
+    height: 2.67vw;
+    background-color: #f3f3f3;
+}
+
+.gray1 {
+    width: 100vw;
+    height: 2.67vw;
+    background-color: #f5f5f7;
+}
+
+.gray2 {
+    width: 100vw;
+    height: 2.67vw;
+}
+
+.tab-button .tab-button-icon {
+    width: 24px;
+    height: 24px;
+}
+
+#tab-t0-0 {
+    background: url(../assets/imgs/tabs/icon_home_nor.png) center 7px no-repeat;
+    background-size: 25%;
+}
+
+#tab-t0-0[aria-selected=true] {
+    background: url(../assets/imgs/tabs/icon_home_sel.png) center 7px no-repeat;
+    background-size: 25%;
+}
+
+#tab-t0-1 {
+    background: url(../assets/imgs/tabs/icon_find_nor.png) center 7px no-repeat;
+    background-size: 25%;
+}
+
+#tab-t0-1[aria-selected=true] {
+    background: url(../assets/imgs/tabs/icon_find_sel.png) center 7px no-repeat;
+    background-size: 25%;
+}
+
+#tab-t0-2 {
+    background: url(../assets/imgs/tabs/icon_quiz_nor.png) center 0px no-repeat;
+    background-size: 40%;
+}
+
+#tab-t0-2[aria-selected=true] {
+    background: url(../assets/imgs/tabs/icon_quiz_sel.png) center 0px no-repeat;
+    background-size: 40%;
+}
+
+#tab-t0-3 {
+    background: url(../assets/imgs/tabs/icon_course_nor.png) center 10px no-repeat;
+    background-size: 22%;
+}
+
+#tab-t0-3[aria-selected=true] {
+    background: url(../assets/imgs/tabs/icon_course_sel.png) center 10px no-repeat;
+    background-size: 22%;
+}
+
+#tab-t0-4 {
+    background: url(../assets/imgs/tabs/icon_me_nor.png) center 7px no-repeat;
+    background-size: 25%;
+}
+
+#tab-t0-4[aria-selected=true] {
+    background: url(../assets/imgs/tabs/icon_me_sel.png) center 7px no-repeat;
+    background-size: 25%;
+}
+
+
+/* home页面 */
+
+.home_search {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.home_nav {
+    position: fixed;
+    top: 17.6vw;
+    z-index: 10;
+    background-color: #fff;
+}
+
+
+/* 推荐 */
+
+body {
+    width: 100vw;
+}
+
+.body {
+    margin-bottom: 13.07vw;
+}
+
+.home_search {
+    width: 100vw;
+    height: 17.6vw;
+    background-color: #257aef;
+}
+
+.home_search .search {
+    width: 87vw;
+    height: 17.6vw;
+    float: left;
+}
+
+.home_search .search input {
+    border: none;
+    width: 83.2vw;
+    height: 8.53vw;
+    background-color: #ffffff;
+    border-radius: 0.27vw;
+    margin: 6.93vw 0vw 1.6vw 3.73vw;
+    padding-left: 8.4vw;
+    box-sizing: border-box;
+}
+
+.home_search .search input::-webkit-input-placeholder {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #333333;
+}
+
+.home_search .search img {
+    width: 4.13vw;
+    height: 4.53vw;
+    position: absolute;
+    top: 8.93vw;
+    left: 6.13vw;
+}
+
+.home_search .elease {
+    width: 13vw;
+    height: 17.6vw;
+    float: right;
+}
+
+.home_search .elease img {
+    width: 5.6vw;
+    height: 4.67vw;
+    margin: 7.07vw 3.73vw 0vw 3.73vw;
+}
+
+.home_search .elease p {
+    font-family: PingFang-SC-Regular;
+    font-size: 2.67vw;
+    color: #ffffff;
+    padding-left: 3.2vw;
+}
+
+.home_nav {
+    width: 100vw;
+    height: 11.07vw;
+    border-bottom: 0.2vw solid #e5e5e5;
+    padding-top: 3vw;
+}
+
+.home_nav li {
+    height: 8vw;
+    float: left;
+    margin-left: 3.5vw;
+    margin-right: 2.5vw;
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+}
+
+.home_nav .yes {
+    color: #257aef;
+    border-bottom: 0.5vw #257aef solid;
+}
+
+.home_banner {
+    width: 92.53vw;
+    height: 25.33vw;
+    margin: 0 auto;
+    margin-top: 5.33vw;
+}
+
+.home_banner img {
+    height: 25.33vw;
+}
+
+.home_competition {
+    width: 100vw;
+    padding-left: 3.73vw;
+    margin-top: 5.2vw;
+}
+
+.home_competition .img {
+    width: 92.53vw;
+    height: 52vw;
+    margin-top: 2.67vw;
+    position: relative;
+}
+
+.home_competition .img .game_img {
+    width: 92.53vw;
+    height: 52vw;
+}
+
+.home_competition .img .end_time {
+    height: 5.33vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.53vw;
+    padding: 0.5vw 2vw 0.5vw 2vw;
+    position: absolute;
+    top: 43.87vw;
+    right: 2.67vw;
+}
+
+.home_competition .img .end_time p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #ffffff;
+    text-align: center;
+}
+
+.home_competition .enrollees {
+    width: 92.53vw;
+    height: 13.2vw;
+    border-bottom: 0.2vw #e5e5e5 solid;
+    padding-top: 2.5vw;
+}
+
+.home_competition .enrollees .enrollees_img {
+    max-width: 29.5vw;
+    min-width: 6.13vw;
+    height: 6.13vw;
+    overflow-y: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.home_competition .enrollees .enrollees_img img {
+    width: 6.13vw;
+    height: 6.13vw;
+    margin-right: -2vw;
+}
+
+.home_competition .enrollees p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #333333;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.home_competition .enrollees .registration_fee {
+    float: right;
+}
+
+.home_competition .enrollees .registration_fee .enrollees_money {
+    font-family: PingFang-SC-Medium;
+    font-size: 5.07vw;
+    color: #dd2727;
+    margin-right: -1vw;
+}
+
+.home_competition .enrollees .registration_fee .douli {
+    font-family: PingFang-SC-Medium;
+    font-size: 2.93vw;
+    color: #dd2727;
+}
+
+.home_competition .enrollees .registration_fee .ren {
+    font-family: PingFang-SC-Regular;
+    font-size: 2.93vw;
+    color: #999999;
+}
+
+.new_1 {
+    width: 93.53vw;
+    padding-top: 4.53vw;
+    padding-bottom: 4.8vw;
+    margin: 0 auto;
+    border-bottom: 0.2vw #e5e5e5 solid;
+}
+
+.new_1_title {
+    font-family: PingFang-SC-Regular;
+    font-size: 5.07vw;
+    color: #333333;
+    margin-bottom: 2.67vw;
+}
+
+.new_1_img {
+    height: 19.73vw;
+    width: 93.53vw;
+    overflow-y: hidden;
+}
+
+.new_1_img img {
+    height: 19.73vw;
+    object-fit: cover;
+}
+
+.new_1 .author {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #999999;
+    margin-top: 2.6vw;
+}
+
+.new_2,
+.new_3,
+.broadcast,
+.ntice {
+    width: 92.53vw;
+    margin: 0 auto;
+    padding-top: 4.8vw;
+    padding-bottom: 4.8vw;
+    border-bottom: 0.2vw #e5e5e5 solid;
+}
+
+.new_2_title {
+    width: 59.87vw;
+    float: left;
+}
+
+.new_2_title .title,
+.new_3 .title {
+    font-family: PingFang-SC-Regular;
+    font-size: 5.07vw;
+    color: #333333;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.new_2_title .author,
+.new_3 .author {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #999999;
+    margin-top: 2vw;
+}
+
+.new_2_img img {
+    width: 29.87vw;
+    height: 19.47vw;
+    object-fit: cover;
+}
+
+.broadcast .anchor {
+    height: 10vw;
+}
+
+.broadcast .anchor .anchor_img .header_home {
+    width: 9.87vw;
+    height: 9.87vw;
+}
+
+.broadcast .anchor .anchor_img {
+    float: left;
+    margin-right: 2vw;
+}
+
+.broadcast .anchor .anchor_p {
+    float: left;
+}
+
+.broadcast .anchor .broadcasting {
+    float: right;
+    width: 16.4vw;
+    height: 5.33vw;
+    background-color: #ff6613;
+    border-radius: 0.27vw;
+    text-align: center;
+}
+
+.broadcast .anchor .broadcasting img {
+    width: 2.67vw;
+    height: 2.67vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.broadcast .anchor .broadcasting p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 5.33vw;
+}
+
+.broadcast .anchor .anchor_p .name {
+    font-family: PingFang-SC-Medium;
+    font-size: 3.73vw;
+    color: #33393f;
+}
+
+.broadcast .anchor .anchor_p .who {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #a4a6aa;
+}
+
+.broadcast .room {
+    text-align: left;
+    margin-top: 3vw;
+}
+
+.broadcast .room .title {
+    font-family: PingFang-SC-Regular;
+    font-size: 5.07vw;
+    color: #1e2225;
+    margin-bottom: 2.67vw;
+}
+
+.broadcast .room .img {
+    position: relative;
+}
+
+.broadcast .room .img img {
+    width: 92.53vw;
+    height: 52vw;
+}
+
+.broadcast .room .img .foreshow_play {
+    width: 8.8vw;
+    height: 8.8vw;
+    opacity: 0.5;
+    position: absolute;
+    top: 21.6vw;
+    left: 41.87vw;
+}
+
+.broadcast .room .img .popularity {
+    width: 17.07vw;
+    height: 5.33vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.53vw;
+    position: absolute;
+    top: 2.67vw;
+    left: 2.67vw;
+}
+
+.broadcast .room .img .popularity p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #ffffff;
+    height: 5.33vw;
+    text-align: center;
+}
+
+.broadcast .anchor .notice {
+    float: right;
+    width: 15.33vw;
+    height: 5.33vw;
+    background-color: #ffffff;
+    border-radius: 0.27vw;
+    border: solid 0.2vw #ff6613;
+    text-align: center;
+}
+
+.broadcast .anchor .notice p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #ff6613;
+}
+
+.broadcast .notice_time {
+    width: 92.53vw;
+    height: 6.4vw;
+    background-color: #ffa613;
+    border-radius: 0.27vw;
+    margin-top: 3.2vw;
+    padding-left: 2.67vw;
+}
+
+.broadcast .notice_time img {
+    width: 3.47vw;
+    height: 3.47vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.broadcast .notice_time p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.47vw;
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 6.4vw;
+}
+
+.broadcast .room .img .expect {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #ffffff;
+    position: absolute;
+    top: 30.27vw;
+    left: 39.87vw;
+}
+
+.home_tabs {
+    width: 100vw;
+    height: 13.07vw;
+    background-color: #ffffff;
+    border-top: solid 0.2vw #e5e5e5;
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    padding-top: 1.6vw;
+    box-sizing: border-box;
+}
+
+.home_tabs div {
+    width: 25vw;
+    height: 13.07vw;
+    float: left;
+    text-align: center;
+}
+
+.home_tabs div img {
+    width: 5.73vw;
+}
+
+.home_tabs div p {
+    font-family: PingFang-SC-Regular;
+    font-size: 2.93vw;
+    color: #666666;
+}
+
+
+/* 推荐 */
+
+
+/* 百家畅言 */
+
+.new_3 .question_lable {
+    width: 9.33vw;
+    height: 5.07vw;
+    background-color: #257aef;
+    border-radius: 0.27vw;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.new_3 .question_lable p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #ffffff;
+}
+
+.new_img {
+    margin-top: 2vw;
+    width: 92.53vw;
+    height: 52vw;
+}
+
+
+/* 百家畅言 */
+
+
+/* 附近 */
+
+.home_location {
+    width: 14.67vw;
+    height: 5.07vw;
+    background-color: #f97913;
+    border-radius: 2.53vw;
+    margin-left: 3.73vw;
+    margin-top: 2.67vw;
+    text-align: center;
+}
+
+.home_location img {
+    width: 2.13vw;
+    height: 2.8vw;
+    margin-top: -0.5vw;
+    position: relative;
+}
+
+.home_location span {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #ffffff;
+    position: relative;
+}
+
+
+/* 附近 */
+
+
+/* 赛事 */
+
+.match_nav {
+    margin-top: 5.33vw;
+    margin-left: 3.73vw;
+    width: 92.53vw;
+    height: 9.07vw;
+    background-color: #ffffff;
+    border-radius: 4.53vw;
+    border: solid 0.2vw #257aef;
+}
+
+.match_nav div {
+    padding-top: 1.5vw;
+    width: 30.7vw;
+    height: 8.8vw;
+    border-radius: 4.53vw;
+    float: left;
+    text-align: center;
+}
+
+.match_nav p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #257aef;
+}
+
+.home_competition .img .end {
+    height: 5.33vw;
+    background-color: #dd2727;
+    border-radius: 0.53vw;
+    padding: 0.5vw 2vw 0.5vw 2vw;
+    position: absolute;
+    top: 43.87vw;
+    right: 2.67vw;
+}
+
+.home_competition .img .end p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #ffffff;
+    text-align: center;
+}
+
+.home_competition .enrollees .champion {
+    width: 3.73vw;
+    height: 5.2vw;
+    float: left;
+    margin-right: 1.5vw;
+}
+
+.home_competition .enrollees .header_game {
+    width: 6.13vw;
+    height: 6.13vw;
+    float: left;
+    margin-right: 1.5vw;
+}
+
+.home_competition .enrollees .registration_fee .vote {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #333333;
+}
+
+
+/* 赛事 */
+
+
+/* 消息*/
+
+.body .new_up {
+    width: 100vw;
+    height: 17.07vw;
+    text-align: center;
+}
+
+.body .new_up p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.8vw;
+    color: #333333;
+    line-height: 17.07vw;
+}
+
+.body .new_nav {
+    width: 100vw;
+    height: 25vw;
+}
+
+.body .new_nav div {
+    width: 25vw;
+    height: 25vw;
+    text-align: center;
+    float: left;
+}
+
+.body .new_nav div img {
+    width: 13.33vw;
+    height: 13.33vw;
+}
+
+.body .new_nav div p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #333333;
+}
+
+.notice .block {
+    width: 100vw;
+    height: 15vw;
+    // background: #1e2225;
+    padding-left: 3.47vw;
+    margin-bottom: 6.67vw;
+}
+
+.notice .block .img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2.27vw;
+}
+
+.notice .block .img .game_message {
+    width: 14.67vw;
+    height: 14.67vw;
+}
+
+.notice .block .content {
+    display: inline-block;
+    vertical-align: middle;
+    width: 75vw;
+}
+
+.notice .block .content .name {
+    font-family: PingFang-SC-Bold;
+    font-size: 3.73vw;
+    color: #333333;
+    line-height: 7.33vw;
+}
+
+.notice .block .content .time {
+    font-family: PingFang-SC-Regular;
+    font-size: 2.67vw;
+    color: #999999;
+    float: right;
+}
+
+.notice .block .content .say {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #333333;
+}
+
+
+/* 消息*/
+
+
+/*我的*/
+
+.body .hearder {
+    width: 100vw;
+    height: 56.4vw;
+    position: relative;
+}
+
+.body .hearder .gotoMy_home {
+    position: absolute;
+    top: 10vw;
+    right: 3.73vw;
+}
+
+.body .hearder .gotoMy_home p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.body .hearder .gotoMy_home img {
+    width: 1.47vw;
+    height: 2.13vw;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1.6vw;
+}
+
+.body .hearder .portrait {
+    border: 0.5vw #fff solid;
+    border-radius: 10vw;
+    position: absolute;
+    top: 9vw;
+    left: 41vw;
+    width: 17.07vw;
+    height: 18.07vw;
+}
+
+.body .hearder .portrait .me_header {
+    width: 17.07vw;
+    height: 17.07vw;
+}
+
+.body .hearder .name {
+    font-family: PingFang-SC-Bold;
+    font-size: 4.8vw;
+    color: #ffffff;
+    position: absolute;
+    top: 30.67vw;
+    width: 100vw;
+    text-align: center;
+}
+
+.body .hearder .word {
+    width: 100vw;
+    text-align: center;
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #ffffff;
+    opacity: 0.6;
+    position: absolute;
+    top: 38.4vw;
+}
+
+.body .data {
+    width: 92.53vw;
+    height: 18.27vw;
+    background-color: #ffffff;
+    border-radius: 1.07vw;
+    // background: #64676c;
+    position: absolute;
+    top: 46.67vw;
+    left: 3.73vw;
+}
+
+.body .data .block {
+    width: 30.8vw;
+    height: 18.27vw;
+    float: left;
+    text-align: center;
+    padding-top: 4.67vw;
+}
+
+.body .data .block .number {
+    font-family: PingFang-SC-Bold;
+    font-size: 4.27vw;
+    color: #333333;
+}
+
+.body .data .block .name {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #999999;
+    margin-top: 1.5vw;
+}
+
+.body .bg {
+    width: 100vw;
+    height: 11.2vw;
+    background-color: #f3f3f3;
+}
+
+.body .my_nav {
+    width: 100vw;
+    height: 23.87vw;
+}
+
+.body .my_nav .block {
+    width: 25vw;
+    height: 23.87vw;
+    text-align: center;
+    float: left;
+    padding-top: 5.33vw;
+}
+
+.body .my_nav .block img {
+    height: 6.13vw;
+    margin-bottom: 3vw;
+}
+
+.body .my_nav .block p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.47vw;
+    color: #333333;
+}
+
+.body .mine .my {
+    width: 100vw;
+    height: 12vw;
+    padding-left: 3.73vw;
+    padding-right: 3.73vw;
+    padding-top: 3vw;
+}
+
+.body .mine .my .wallet_me {
+    width: 3.6vw;
+    height: 3.87vw;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3.6vw;
+}
+
+.body .mine .my p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #333333;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.body .mine .my .arrow_fb {
+    width: 1.73vw;
+    height: 2.8vw;
+    // display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+
+
+/*我的*/
+
+
+/* home页面 */
+
+
+/* 赛事详情 */
+
+.match_information {
+    width: 100vw;
+    height: 54.67vw;
+    padding: 4.53vw 3.73vw 5.33vw 3.73vw;
+}
+
+.match_information .one {
+    width: 100%;
+    height: 10vw;
+}
+
+.match_information .one .one_left .enrollees_money {
+    font-family: PingFang-SC-Medium;
+    font-size: 5.87vw;
+    color: #dd2727;
+}
+
+.match_information .one .one_left {
+    float: left;
+}
+
+.match_information .one .one_left .douli {
+    font-family: PingFang-SC-Medium;
+    font-size: 3.2vw;
+    color: #dd2727;
+}
+
+.match_information .one .one_left .ren {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #999999;
+}
+
+.match_information .one .one_right {
+    margin-top: 1vw;
+    float: right;
+    width: 29.6vw;
+    height: 5.33vw;
+    background-color: #ffa613;
+    border-radius: 0.53vw;
+    text-align: center;
+    padding-top: 0.5vw;
+}
+
+.match_information .one .one_right p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #ffffff;
+}
+
+.match_information .title {
+    font-family: PingFang-SC-Bold;
+    font-size: 4.8vw;
+    color: #333333;
+}
+
+.match_information .two {
+    margin-top: 5vw;
+    width: 92.53vw;
+    height: 15.07vw;
+    background-color: #f0f1f2;
+    border-radius: 1.07vw;
+    padding: 3.33vw 3.2vw 3.2vw 3.2vw;
+}
+
+.match_information .two .anchor_img {
+    float: left;
+    margin-right: 2vw;
+}
+
+.match_information .two .anchor_img .header_home {
+    width: 8.53vw;
+    height: 8.53vw;
+}
+
+.match_information .two .anchor_p {
+    float: left;
+}
+
+.match_information .two .anchor_p .name {
+    font-family: PingFang-SC-Medium;
+    font-size: 3.47vw;
+    color: #000000;
+}
+
+.match_information .two .anchor_p .who {
+    font-family: PingFang-SC-Regular;
+    font-size: 2.93vw;
+    color: #a4a6aa;
+}
+
+.match_information .two .follow {
+    float: right;
+    width: 17.33vw;
+    height: 8.53vw;
+    background-color: #257aef;
+    border-radius: 0.53vw;
+    text-align: center;
+}
+
+.match_information .two .follow p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #ffffff;
+    line-height: 8.73vw;
+}
+
+.match_information .enrollees {
+    width: 92.53vw;
+    height: 13.2vw;
+    padding-top: 3.5vw;
+}
+
+.match_information .enrollees .enrollees_img {
+    max-width: 41.5vw;
+    min-width: 6.13vw;
+    height: 6.13vw;
+    overflow-y: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.match_information .enrollees .enrollees_img img {
+    width: 6.13vw;
+    height: 6.13vw;
+    margin-right: -2vw;
+}
+
+.match_information .enrollees .arrow_fb {
+    float: right;
+}
+
+.match_information .enrollees .arrow_fb img {
+    width: 1.6vw;
+    height: 2.67vw;
+    display: inline-block;
+}
+
+.match_information .enrollees .arrow_fb p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #333333;
+    display: inline-block;
+}
+
+.match_details .title .vertical {
+    width: 0.8vw;
+    height: 4.53vw;
+    background-color: #257aef;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.match_details {
+    width: 100vw;
+    padding: 4.93vw 4.27vw 3.87vw 3.73vw;
+}
+
+.match_details .title {
+    margin-bottom: 4.27vw;
+}
+
+.match_details .title p {
+    font-family: PingFang-SC-Bold;
+    font-size: 4.53vw;
+    color: #333333;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.match_but {
+    width: 92.53vw;
+    height: 11.73vw;
+    background-color: #257aef;
+    border-radius: 5.87vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.match_but p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.8vw;
+    color: #ffffff;
+    line-height: 12.73vw;
+}
+
+.match_details .contence {
+    margin-bottom: 6.8vw;
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    color: #333333;
+    line-height: 7.73vw;
+}
+
+
+/* 赛事详情 */
+
+
+/* 报名人数*/
+
+.num_top {
+    width: 100vw;
+    padding-top: 9.2vw;
+    padding-left: 3.73vw;
+}
+
+.num_top .back_icon {
+    width: 2.27vw;
+    height: 4.13vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.num_top .title {
+    width: 90%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.num_top .title p {
+    font-family: PingFang-SC-Medium;
+    font-size: 4.8vw;
+    color: #333333;
+}
+
+.num_people {
+    padding: 4vw 0vw 0vw 3.73vw;
+}
+
+.num_people .quzi_header {
+    width: 13.33vw;
+    height: 13.33vw;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2.53vw;
+}
+
+.num_people p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.27vw;
+    color: #333333;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* 报名人数*/
+
+
+/*直播详情*/
+
+.broad_head .play_img {
+    width: 100vw;
+    height: 56vw;
+    position: relative;
+}
+
+.broad_head .arrow_write {
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    top: 7.07vw;
+    left: 0.73vw;
+    text-align: center;
+    padding: 3vw;
+}
+
+.broad_head .arrow_write img {
+    width: 2.27vw;
+    height: 4.13vw;
+}
+
+.broad_head .title {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.8vw;
+    color: #ffffff;
+    position: absolute;
+    top: 8.67vw;
+    left: 9.07vw;
+}
+
+.broad_head .watch_num {
+    position: absolute;
+    top: 49.2vw;
+    left: 3.73vw;
+}
+
+.broad_head .watch_num .people_play {
+    width: 4vw;
+    height: 4.27vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.broad_head .watch_num span {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.broad_head .screen_play {
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    top: 49.47vw;
+    right: 2.67vw;
+}
+
+.broadcast_details .two {
+    width: 100vw;
+    padding: 2.67vw 3.73vw;
+    height: 14vw;
+}
+
+.broadcast_details .two .anchor_img .header_home {
+    width: 8.53vw;
+    height: 8.53vw;
+}
+
+.broadcast_details .two .anchor_img {
+    float: left;
+    margin-right: 2vw;
+}
+
+.broadcast_details .two .anchor_img .header_home {
+    width: 8.53vw;
+    height: 8.53vw;
+}
+
+.broadcast_details .two .anchor_p {
+    float: left;
+}
+
+.broadcast_details .two .anchor_p .name {
+    font-family: PingFang-SC-Medium;
+    font-size: 3.47vw;
+    color: #000000;
+}
+
+.broadcast_details .two .anchor_p .who {
+    font-family: PingFang-SC-Regular;
+    font-size: 2.93vw;
+    color: #a4a6aa;
+}
+
+.broadcast_details .two .follow {
+    float: right;
+    width: 17.33vw;
+    height: 8.53vw;
+    background-color: #257aef;
+    border-radius: 0.53vw;
+    text-align: center;
+}
+
+.broadcast_details .two .follow p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #ffffff;
+    line-height: 8.73vw;
+}
+
+.broadcast_details .careful {
+    width: 92.53vw;
+    height: 26.4vw;
+    background-color: #fff5f5;
+    border-radius: 0.53vw;
+    margin: 0 auto;
+    padding: 3.07vw 4.53vw 3.47vw 4.13vw;
+}
+
+.broadcast_details .careful p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #dd2727;
+    text-align: justify;
+}
+
+.broadcast_details .chat {
+    width: 100vw;
+    padding: 2vw 4.67vw 14vw 3.73vw;
+}
+
+.broadcast_details .chat .say {
+    margin-bottom: 1.6vw;
+}
+
+.broadcast_details .chat .say .name,
+.broadcast_details .chat .come .name {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #999999;
+}
+
+.broadcast_details .chat .say .speak,
+.broadcast_details .chat .come .tape {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #333333;
+    line-height: 7vw;
+}
+
+.broadcast_details .chat .come {
+    width: 55.87vw;
+    height: 7.2vw;
+    background-color: #f5f5f5;
+    border-radius: 0.53vw;
+    margin-bottom: 1.6vw;
+    text-align: center;
+}
+
+.chat_block {
+    width: 100vw;
+    height: 13.07vw;
+    background-color: #ffffff;
+    box-shadow: 0vw -0.2vw 0vw 0vw #eeeeee;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    padding: 1.78vw 6.67vw 1.87vw 3.73vw;
+}
+
+.chat_block input {
+    border: none;
+    width: 77.07vw;
+    height: 9.33vw;
+    background-color: #eef0f2;
+    border-radius: 4.67vw;
+    padding-left: 5.47vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.chat_block input::-webkit-input-placeholder {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    line-height: 9.33vw;
+    color: #b8babf;
+}
+
+.chat_block .share {
+    width: 5.73vw;
+    height: 5.47vw;
+    margin-left: 5.8vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/*直播详情*/
+
+
+/* 文章详情*/
+
+.up {
+    padding: 6vw 0vw 0vw 0vw;
+}
+
+.more_back_icon {
+    width: 10vw;
+    height: 9vw;
+    text-align: center;
+    padding-top: 1.5vw;
+    float: left;
+}
+
+.more_back_icon img {
+    width: 2.27vw;
+    height: 4.13vw;
+}
+
+.more_navigation {
+    width: 10vw;
+    height: 9vw;
+    text-align: center;
+    padding-top: 1.5vw;
+    float: right;
+}
+
+.more_navigation img {
+    width: 5.33vw;
+    height: 1.07vw;
+}
+
+.article_details {
+    margin-top: 6.73vw;
+    width: 100vw;
+    padding: 2.67vw 3.73vw 15vw 3.73vw;
+}
+
+.article_details .title {
+    font-family: PingFang-SC-Bold;
+    font-size: 6.13vw;
+    color: #333333;
+}
+
+.article_details .two {
+    width: 100%;
+    margin-top: 6.4vw;
+    height: 14vw;
+}
+
+.article_details .two .anchor_img {
+    float: left;
+    margin-right: 2vw;
+}
+
+.article_details .two .anchor_img .header_home {
+    width: 9.87vw;
+    height: 9.87vw;
+}
+
+.article_details .two .anchor_p {
+    float: left;
+}
+
+.article_details .two .anchor_p .name {
+    font-family: PingFang-SC-Medium;
+    font-size: 3.47vw;
+    color: #000000;
+}
+
+.article_details .two .anchor_p .who {
+    font-family: PingFang-SC-Regular;
+    font-size: 2.93vw;
+    color: #a4a6aa;
+}
+
+.article_details .two .follow {
+    float: right;
+    width: 17.33vw;
+    height: 8.53vw;
+    background-color: #257aef;
+    border-radius: 0.53vw;
+    text-align: center;
+}
+
+.article_details .two .follow p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #ffffff;
+    line-height: 8.73vw;
+}
+
+.article_details .contence {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    line-height: 7.73vw;
+    color: #333333;
+    text-align: justify;
+}
+
+.article_details .new_img {
+    width: 92.53vw;
+    height: 52vw;
+    margin-top: 6.4vw;
+}
+
+.article_details .reading_data {
+    width: 100%;
+    height: 5vw;
+    margin-top: 3.87vw;
+}
+
+.article_details .reading_data span {
+    font-family: PingFang-SC-Regular;
+    font-size: 2.93vw;
+    color: #999999;
+}
+
+.article_details .advertisement {
+    width: 92.67vw;
+    height: 73.33vw;
+    border-bottom: 0.2vw #e5e5e5 solid;
+    margin-top: 5vw;
+}
+
+.article_details .advertisement .name {
+    width: 92.53vw;
+    height: 13.33vw;
+    background-color: #ffffff;
+    border: solid 0.13vw #e5e5e5;
+    padding: 2vw 3.73vw;
+}
+
+.article_details .advertisement .name p {
+    width: 54.8vw;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-align: justify;
+    float: left;
+}
+
+.article_details .advertisement .name .download {
+    float: right;
+    margin-top: 2.53vw;
+}
+
+.article_details .advertisement .name .download img {
+    width: 3.73vw;
+    height: 3.47vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.article_details .advertisement .name .download span {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #999999;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.article_details .advertisement .img {
+    position: relative;
+}
+
+.article_details .advertisement .img .off {
+    width: 5.33vw;
+    height: 5.33vw;
+    position: absolute;
+    top: 2.13vw;
+    right: 2.13vw;
+}
+
+.article_details .advertisement .img p {
+    position: absolute;
+    bottom: 2.67vw;
+    left: 2.8vw;
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #ffffff;
+}
+
+.article_details .other_article div {
+    width: 100%;
+    height: 29vw;
+    border-bottom: 0.2vw #e5e5e5 solid;
+    padding-top: 4.67vw;
+}
+
+.article_details .other_article div p {
+    font-family: PingFang-SC-Regular;
+    font-size: 5.07vw;
+    color: #333333;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-align: justify;
+    float: left;
+    width: 60vw;
+}
+
+.article_details .other_article div img {
+    width: 29.87vw;
+    height: 19.47vw;
+    float: right;
+}
+
+.article_details .article_comment .comment_title {
+    font-family: PingFang-SC-Bold;
+    font-size: 5.33vw;
+    color: #333333;
+    margin-top: 5.33vw;
+}
+
+.article_details .article_comment .comment_title .comment {
+    display: table;
+    width: 100%;
+    // height: 60vw;
+    padding: 6.8vw 0vw 0vw 0vw;
+}
+
+.comment .comment_header {
+    width: 9vw;
+    float: left;
+}
+
+.comment .comment_header img {
+    width: 7.47vw;
+    height: 7.47vw;
+}
+
+.comment .comment_content {
+    width: 83.33vw;
+    float: right;
+}
+
+.comment_content .pepleo {
+    height: 5vw;
+}
+
+.comment_content .pepleo .name {
+    font-family: PingFang-SC-Bold;
+    font-size: 3.2vw;
+    color: #333333;
+    float: left;
+}
+
+.comment_content .pepleo .like {
+    float: right;
+    width: 3.2vw;
+    height: 3.33vw;
+}
+
+.comment_content .pepleo .like_num {
+    float: right;
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #666666;
+}
+
+.comment_content .say {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #333333;
+    // margin-top: 2.67vw;
+    // margin-bottom: 2.67vw;
+}
+
+.comment_content .comment_time {
+    height: 7vw;
+}
+
+.comment_content .comment_time .time {
+    width: 12.53vw;
+    height: 3.8vw;
+    font-family: PingFang-SC-Regular;
+    font-size: 2.93vw;
+    color: #a4a6aa;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.comment_content .comment_time .reply_but {
+    width: 11.47vw;
+    height: 5.6vw;
+    background-color: #eeeeee;
+    border-radius: 2.8vw;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.comment_content .comment_time .reply_but p {
+    font-family: PingFang-SC-Regular;
+    font-size: 2.93vw;
+    color: #333333;
+    margin-top: 0.5vw;
+}
+
+.comment_content .reply_new {
+    width: 83.33vw;
+    background-color: #f0f1f2;
+    border-radius: 0.53vw;
+    margin-top: 3.73vw;
+    padding: 4.13vw 3.07vw 4vw 3.33vw;
+}
+
+.comment .comment_content .reply_new .name {
+    font-family: PingFang-SC-Bold;
+    font-size: 4vw;
+    color: #333333;
+}
+
+.article_comment .comment {
+    display: table;
+    width: 100%;
+    // height: 60vw;
+    padding: 6.8vw 0vw 0vw 0vw;
+}
+
+.comment .comment_content .reply_new .identity {
+    width: 6.93vw;
+    height: 3.73vw;
+    border-radius: 0.27vw;
+    border: solid 0.2vw #257aef;
+    font-family: PingFang-SC-Regular;
+    font-size: 2.67vw;
+    color: #257aef;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.comment .comment_content .reply_new .reply {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #333333;
+}
+
+.comment .comment_content .reply_new .more {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #257aef;
+    margin-top: 3vw;
+}
+
+.comment_block {
+    width: 100vw;
+    height: 13.07vw;
+    background-color: #ffffff;
+    box-shadow: 0vw -0.2vw 0vw 0vw #eeeeee;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    padding: 1.78vw 1.73vw 1.87vw 3.73vw;
+}
+
+.comment_block input {
+    border: none;
+    width: 48.53vw;
+    height: 9.33vw;
+    background-color: #eef0f2;
+    border-radius: 4.67vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.comment_block input::-webkit-input-placeholder {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #b8babf;
+    line-height: 9.33vw;
+    text-align: center;
+}
+
+.comment_block .right {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.comment_block .right .comment {
+    width: 5.33vw;
+    height: 5.47vw;
+    margin-left: 4vw;
+}
+
+.comment_block .right .collect {
+    width: 6vw;
+    height: 5.73vw;
+    margin-left: 3vw;
+    margin-right: 7vw;
+}
+
+.comment_block .right .commend {
+    width: 5.33vw;
+    height: 5.6vw;
+}
+
+.comment_block .right span {
+    font-family: PingFang-SC-Regular;
+    font-size: 2.4vw;
+    color: #64676c;
+    position: relative;
+    top: -4vw;
+}
+
+.popup {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 0;
+    z-index: 100vw;
+}
+
+.popup .new {
+    width: 100vw;
+    height: 172.53vw;
+    background-color: #ffffff;
+    border-radius: 1.6vw 1.6vw 0vw 0vw;
+    position: fixed;
+    bottom: 0;
+}
+
+.popup .new .off {
+    width: 3.6vw;
+    height: 3.73vw;
+    position: relative;
+    top: 6vw;
+    left: 3.73vw;
+}
+
+.popup .new .title {
+    text-align: center;
+}
+
+.popup .new .title p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.8vw;
+    color: #333333;
+}
+
+.popup .new .comment {
+    display: table;
+    padding: 6.53vw 3.6vw 5.2vw 3.73vw;
+    border-bottom: 0.2vw #e5e5e5 solid;
+}
+
+.popup .new .reply {
+    padding: 6.53vw 3.6vw 5.2vw 3.73vw;
+    display: table;
+}
+
+.reply .p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #999999;
+    margin-bottom: 5vw;
+}
+
+.reply .comment_header {
+    width: 9vw;
+    float: left;
+}
+
+.reply .comment_header img {
+    width: 7.47vw;
+    height: 7.47vw;
+}
+
+.reply .comment_content {
+    width: 83.33vw;
+    float: right;
+}
+
+.reply .comment_content .pepleo span {
+    width: 6.93vw;
+    height: 3.73vw;
+    border-radius: 0.27vw;
+    border: solid 0.2vw #257aef;
+    font-family: PingFang-SC-Regular;
+    font-size: 2.67vw;
+    color: #257aef;
+    margin-left: 2.5vw;
+}
+
+.popup .cancel {
+    width: 96.27vw;
+    height: 11.73vw;
+    background-color: #ffffff;
+    border-radius: 1.6vw;
+    position: fixed;
+    bottom: 1.87vw;
+    left: 1.87vw;
+    text-align: center;
+}
+
+.popup .cancel p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    line-height: 11.73vw;
+    color: #333333;
+}
+
+.popup .share {
+    width: 96.27vw;
+    height: 25.33vw;
+    background-color: #ffffff;
+    border-radius: 1.6vw;
+    position: fixed;
+    bottom: 16.27vw;
+    left: 1.87vw;
+}
+
+.popup .share div {
+    width: 20%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.popup .share div .share_share {
+    width: 6.93vw;
+    height: 5.87vw;
+    margin-top: 6.4vw;
+}
+
+.popup .share div .wechat_share {
+    width: 7.2vw;
+    height: 5.87vw;
+    margin-top: 6.27vw;
+}
+
+.popup .share div .friends_share {
+    width: 6.93vw;
+    height: 6.93vw;
+    margin-top: 5.2vw;
+}
+
+.popup .share div .qq_share {
+    width: 6.4vw;
+    height: 7.73vw;
+    margin-top: 4.93vw;
+}
+
+.popup .share div .space_share {
+    width: 9.07vw;
+    height: 9.07vw;
+    margin-top: 4.27vw;
+}
+
+.popup .share div p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #333333;
+}
+
+
+/* 文章详情*/
+
+
+/*分享-转发*/
+
+.share_body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.share_body .header {
+    width: 100vw;
+    height: 17.07vw;
+    background-color: #ffffff;
+    box-shadow: 0vw 0.2vw 0vw 0vw #e5e5e5;
+    padding: 7.2vw 3.87vw 0vw 3.87vw;
+}
+
+.share_body .header .cancel {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.27vw;
+    color: #333333;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.share_body .header .title {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.8vw;
+    color: #333333;
+    display: inline-block;
+    vertical-align: middle;
+    width: 73vw;
+    text-align: center;
+}
+
+.share_body .header .release {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.27vw;
+    color: #257aef;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.share_body .say {
+    width: 100vw;
+    height: 100vw;
+    // background: #999999;
+    padding: 4.93vw 3.73vw;
+}
+
+.share_body .say .title {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    color: #999999;
+}
+
+.share_body .say .article {
+    width: 92.53vw;
+    height: 18.67vw;
+    background-color: #eef0f2;
+    margin-top: 27.73vw;
+}
+
+.share_body .say .article .share_img {
+    width: 18.67vw;
+    height: 18.67vw;
+    float: left;
+}
+
+.share_body .say .article .content {
+    width: 73.86vw;
+    height: 18.67vw;
+    padding: 4vw 4vw 4vw 4.4vw;
+    float: right;
+}
+
+.share_body .say .article .content p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-align: justify;
+    font-family: PingFang-SC-Regular;
+    font-size: 4.27vw;
+    color: #333333;
+}
+
+
+/*分享-转发*/
+
+
+/*问答-详情*/
+
+.question_body {
+    width: 100vw;
+    display: table;
+    padding-bottom: 15vw;
+}
+
+.question_body .up {
+    width: 100vw;
+    height: 11.73vw;
+    background-color: #ffffff;
+    padding-left: 3.73vw;
+    padding-right: 3.73vw;
+    margin-top: 5.33vw;
+}
+
+.question_body .up .back_icon {
+    width: 2.27vw;
+    height: 4.13vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.question_body .up .blank {
+    width: 83vw;
+    height: 11.73vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.question_body .up .more {
+    width: 5.33vw;
+    height: 1.07vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.question_body .two {
+    width: 100vw;
+    height: 15.07vw;
+    border-radius: 1.07vw;
+    padding: 3.33vw 3.2vw 3.2vw 3.2vw;
+}
+
+.question_body .two .header_home {
+    width: 9.87vw;
+    height: 9.87vw;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1vw;
+}
+
+.question_body .two .anchor_p {
+    width: 63vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.question_body .two .anchor_p .name {
+    font-family: PingFang-SC-Medium;
+    font-size: 3.47vw;
+    color: #000000;
+}
+
+.question_body .two .anchor_p .who {
+    font-family: PingFang-SC-Regular;
+    font-size: 2.93vw;
+    color: #a4a6aa;
+}
+
+.question_body .two .follow {
+    display: inline-block;
+    vertical-align: middle;
+    width: 17.33vw;
+    height: 8.53vw;
+    background-color: #257aef;
+    border-radius: 0.53vw;
+    text-align: center;
+}
+
+.question_body .two .follow p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #ffffff;
+    line-height: 8.73vw;
+}
+
+.question_body .title {
+    font-family: PingFang-SC-Bold;
+    font-size: 6.13vw;
+    color: #333333;
+    width: 100vw;
+    padding-left: 4vw;
+    padding-right: 5.07vw;
+    text-align: justify;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+}
+
+.question_body .answer {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #999999;
+    margin-left: 3.6vw;
+    margin-right: 3.47vw;
+}
+
+.question_body .follow {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #999999;
+}
+
+.question_body .twoBut {
+    width: 100vw;
+    height: 10.67vw;
+    margin-top: 5.2vw;
+    border-top: 0.2vw #e5e5e5 solid;
+}
+
+.question_body .twoBut div {
+    width: 50vw;
+    height: 10.67vw;
+    float: left;
+    text-align: center;
+    padding-top: 3vw;
+}
+
+.question_body .twoBut .invitation {
+    border-right: 0.2vw #e5e5e5 solid;
+}
+
+.question_body .twoBut .invitation img {
+    width: 3.47vw;
+    height: 3.73vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.question_body .twoBut .invitation p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #257aef;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.question_body .twoBut .write img {
+    width: 2.53vw;
+    height: 3.73vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.question_body .twoBut .write p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #257aef;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.question_body .artice {
+    width: 100vw;
+    padding: 6.13vw 5.73vw 0vw 3.87vw;
+}
+
+.question_body .artice .content {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    color: #333333;
+    text-align: justify;
+}
+
+.question_body .artice .img {
+    margin-top: 4.5vw;
+    margin-bottom: 4.5vw;
+}
+
+.question_body .artice .other .wd_icon {
+    width: 4.27vw;
+    height: 3.87vw;
+    margin-right: 2.5vw;
+    float: left;
+}
+
+.question_body .artice .other .block {
+    width: 83.47vw;
+    height: 25.87vw;
+    background-color: #f0f1f2;
+    border-radius: 0.53vw;
+    float: right;
+    padding: 4vw 2.5vw 3.5vw 3vw;
+}
+
+.question_body .artice .other .block .p {
+    font-family: PingFang-SC-Bold;
+    font-size: 4vw;
+    color: #333333;
+    text-align: justify;
+}
+
+.question_body .artice .share {
+    width: 92.53vw;
+    height: 12vw;
+    display: table;
+}
+
+.question_body .artice .share div {
+    width: 30.5vw;
+    height: 12vw;
+    float: left;
+    // border: 0.2vw #e5e5e5 solid;
+    text-align: center;
+    padding-top: 4vw;
+}
+
+.question_body .artice .share div .q_share {
+    width: 4vw;
+    height: 3.73vw;
+}
+
+.question_body .artice .share div .q_comment {
+    width: 4vw;
+    height: 3.73vw;
+}
+
+.question_body .artice .share div .q_like {
+    width: 3.87vw;
+    height: 4.13vw;
+}
+
+.question_body .artice .share div span {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #333333;
+}
+
+.question_block {
+    width: 100vw;
+    height: 13.07vw;
+    background-color: #ffffff;
+    box-shadow: 0vw -0.2vw 0vw 0vw #eeeeee;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    padding: 1.78vw 1.73vw 1.87vw 3.73vw;
+}
+
+.question_block input {
+    border: none;
+    width: 65.73vw;
+    height: 9.33vw;
+    background-color: #eef0f2;
+    border-radius: 4.67vw;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5.3vw;
+}
+
+.question_block input::-webkit-input-placeholder {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    line-height: 9.33vw;
+    color: #b8babf;
+    text-align: left;
+}
+
+.question_block .right {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.question_block .right .comment {
+    width: 6vw;
+    height: 6vw;
+    margin-left: 4vw;
+}
+
+.question_block .right .collect {
+    width: 6vw;
+    height: 5.73vw;
+    margin-left: 3vw;
+    margin-right: 7vw;
+}
+
+.question_block .right .commend {
+    width: 5.33vw;
+    height: 5.6vw;
+}
+
+.question_block .right span {
+    font-family: PingFang-SC-Regular;
+    font-size: 2.4vw;
+    color: #64676c;
+    position: relative;
+    top: -4vw;
+}
+
+.question_body .say {
+    width: 90.4vw;
+    display: table;
+    margin: 0 auto;
+    margin-top: 4vw;
+}
+
+.question_body .say p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    color: #333333;
+    text-align: justify;
+}
+
+
+/*问答-详情*/
+
+
+/*问答-评论*/
+
+.question_comment_body .up {
+    width: 100vw;
+    height: 20vw;
+    padding-top: 9.2vw;
+    padding-left: 3.73vw;
+}
+
+.question_comment_body .up .back_icon {
+    width: 2.27vw;
+    height: 4.13vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.question_comment_body .up p {
+    width: 93vw;
+    font-family: PingFang-SC-Medium;
+    font-size: 4.8vw;
+    color: #333333;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.question_comment_body .reply {
+    width: 100vw;
+    padding: 0vw 3.33vw 8vw 3.6vw;
+}
+
+.question_comment_body .reply .comment_header {
+    width: 7.47vw;
+    height: 7.47vw;
+    float: left;
+}
+
+.question_comment_body .reply .con {
+    width: 83.33vw;
+    display: table;
+    float: right;
+}
+
+.question_comment_body .reply .con .name {
+    width: 83.33vw;
+    display: table;
+}
+
+.question_comment_body .reply .con .name p {
+    font-family: PingFang-SC-Bold;
+    font-size: 3.2vw;
+    color: #333333;
+    float: left;
+}
+
+.question_comment_body .reply .con .name .yes {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    float: right;
+    color: #257aef;
+}
+
+.question_comment_body .reply .con .name .no {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #666666;
+    float: right;
+}
+
+.question_comment_body .reply .con .name img {
+    width: 3.2vw;
+    height: 3.33vw;
+    float: right;
+}
+
+.question_comment_body .reply .con .que {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #333333;
+    margin-top: 1vw;
+    margin-bottom: 2.67vw;
+}
+
+.question_comment_body .reply .con .time {
+    font-family: PingFang-SC-Regular;
+    font-size: 2.93vw;
+    color: #a4a6aa;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2.5vw;
+}
+
+.question_comment_body .reply .con .but {
+    width: 11.47vw;
+    height: 5.6vw;
+    background-color: #eeeeee;
+    border-radius: 2.8vw;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.question_comment_body .reply .con .but p {
+    font-family: PingFang-SC-Regular;
+    font-size: 2.93vw;
+    color: #333333;
+    line-height: 5.6vw;
+}
+
+.question_comment_body .reply .con .comment_reply {
+    width: 83.33vw;
+    // height: 19.2vw;
+    background-color: #f0f1f2;
+    border-radius: 0.53vw;
+    margin-top: 3.73vw;
+    padding: 4vw 3vw 4vw 3.4vw;
+}
+
+.question_comment_body .reply .con .comment_reply .reply_name {
+    font-family: PingFang-SC-Bold;
+    font-size: 4vw;
+    color: #333333;
+}
+
+.question_comment_body .reply .con .comment_reply .author {
+    width: 6.93vw;
+    height: 3.73vw;
+    border-radius: 0.27vw;
+    border: solid 0.2vw #257aef;
+    font-family: PingFang-SC-Regular;
+    font-size: 2.67vw;
+    color: #257aef;
+}
+
+.question_comment_body .reply .con .comment_reply .cnoten {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #333333;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-align: justify;
+}
+
+.question_comment_body .reply .con .comment_reply p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #257aef;
+    margin-top: 2vw;
+}
+
+
+/*问答-评论*/
+
+
+/*问答-写回答*/
+
+.AnswerWrite .up {
+    width: 100vw;
+    height: 17.07vw;
+    background-color: #ffffff;
+    box-shadow: 0vw 0.2vw 0vw 0vw #e5e5e5;
+    padding: 8.2vw 3.87vw 0vw 3.87vw;
+}
+
+.AnswerWrite .up .cancel {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.27vw;
+    color: #333333;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.AnswerWrite .up div {
+    width: 73vw;
+    height: 5vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.AnswerWrite .up .release {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.27vw;
+    color: #257aef;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.AnswerWrite .title {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    color: #999999;
+    margin-top: 4vw;
+    margin-left: 3.87vw;
+}
+
+.AnswerWrite .add_essay_btn {
+    margin-top: 25vw;
+    margin-left: 3.87vw;
+    width: 28.8vw;
+    height: 28.8vw;
+}
+
+
+/*问答-写回答*/
+
+
+/*问答-邀请回答*/
+
+.AnswerInvitation .up {
+    width: 100vw;
+    height: 17.07vw;
+    background-color: #ffffff;
+}
+
+.AnswerInvitation .up .back_icon {
+    width: 2.27vw;
+    height: 4.13vw;
+    position: absolute;
+    top: 9vw;
+    left: 3.73vw;
+}
+
+.AnswerInvitation .up .input {
+    width: 86.13vw;
+    height: 8.53vw;
+    background-color: #eef0f2;
+    border-radius: 0.27vw;
+    position: absolute;
+    top: 6.9vw;
+    left: 10vw;
+}
+
+.AnswerInvitation .up .input img {
+    width: 4.13vw;
+    height: 4.53vw;
+    position: absolute;
+    top: 2vw;
+    left: 2.4vw;
+}
+
+.AnswerInvitation .up .input input {
+    width: 76.93vw;
+    height: 5.6vw;
+    position: absolute;
+    top: 1.5vw;
+    left: 8vw;
+    border: none;
+    background-color: #eef0f2;
+}
+
+.AnswerInvitation input::-webkit-input-placeholder {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #999999;
+}
+
+.AnswerInvitation .tab {
+    width: 100vw;
+    display: table;
+    border-bottom: 0.2vw #e5e5e5 solid;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    margin-top: 6vw;
+    padding-bottom: 0.5vw;
+}
+
+.AnswerInvitation .tab li {
+    height: 7vw;
+    text-align: center;
+    float: left;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.AnswerInvitation .tab .yes {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #257aef;
+    border-bottom: #257aef 0.53vw solid;
+}
+
+.AnswerInvitation .tab .no {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #333333;
+}
+
+.AnswerInvitation .block {
+    width: 100vw;
+    height: 19.73vw;
+    padding-left: 3.73vw;
+    padding-top: 5.33vw;
+}
+
+.AnswerInvitation .block img {
+    width: 13.33vw;
+    height: 13.33vw;
+    float: left;
+}
+
+.AnswerInvitation .block .con {
+    width: 79.78vw;
+    height: 14.5vw;
+    border-bottom: 0.2vw #e5e5e5 solid;
+    float: right;
+    padding-right: 3.73vw;
+    padding-top: 1.07vw;
+}
+
+.AnswerInvitation .block .con .people {
+    float: left;
+}
+
+.AnswerInvitation .block .con .people .name {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.27vw;
+    color: #333333;
+    margin-bottom: 1vw;
+}
+
+.AnswerInvitation .block .con .people .introduce {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #a4a6aa;
+}
+
+.AnswerInvitation .block .con .but {
+    width: 14.67vw;
+    height: 7.2vw;
+    background-color: #0f83db;
+    border-radius: 0.53vw;
+    float: right;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.AnswerInvitation .block .con .but p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.47vw;
+    color: #ffffff;
+    line-height: 7.2vw;
+}
+
+
+/*问答-邀请回答*/
+
+
+/*发布*/
+
+.release .off {
+    width: 3.33vw;
+    height: 3.47vw;
+    position: absolute;
+    top: 9.33vw;
+    left: 3.2vw;
+}
+
+.release .nav {
+    width: 100vw;
+    height: 20.4vw;
+    position: relative;
+    top: 70vw;
+}
+
+.release .nav div {
+    width: 25vw;
+    height: 20.4vw;
+    text-align: center;
+    float: left;
+}
+
+.release .nav div img {
+    width: 14.67vw;
+    height: 14.67vw;
+}
+
+
+/*发布*/
+
+
+/*发布-图文*/
+
+.releaseImageText .up {
+    width: 100vw;
+    height: 17.07vw;
+    background-color: #ffffff;
+    // box-shadow: 0vw 0.2vw 0vw 0vw #e5e5e5;
+    padding: 8.2vw 3.87vw 0vw 3.87vw;
+}
+
+.releaseImageText .up .back {
+    width: 10vw;
+    height: 7.6vw;
+    text-align: center;
+    float: left;
+    padding-top: 2vw;
+}
+
+.releaseImageText .up .back img {
+    width: 2.13vw;
+    height: 4vw;
+}
+
+.releaseImageText .up .title {
+    width: 73vw;
+    text-align: center;
+    float: left;
+    font-family: PingFang-SC-Regular;
+    font-size: 4.8vw;
+    color: #333333;
+}
+
+.releaseImageText .up .but {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.27vw;
+    color: #257aef;
+}
+
+.releaseImageText .con .inoutTitle {
+    font-family: PingFang-SC-Bold;
+    font-size: 5.33vw;
+    color: #ababab;
+    position: absolute;
+    top: 22.4vw;
+    left: 4.4vw;
+}
+
+.releaseImageText .con .content {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    color: #bcbdbd;
+    position: absolute;
+    top: 33.87vw;
+    left: 4.4vw;
+}
+
+.releaseImageText .con .add_img {
+    width: 28.8vw;
+    height: 28.8vw;
+    position: absolute;
+    top: 58.4vw;
+    left: 4.67vw;
+}
+
+
+/*发布-图文*/
+
+
+/*系统设置*/
+
+.setUp {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f5f5f7;
+}
+
+.setUp .up {
+    width: 100vw;
+    height: 17.07vw;
+    background-color: #ffffff;
+    padding: 8.2vw 3.87vw 0vw 3.87vw;
+}
+
+.setUp .up .back_icon {
+    width: 10vw;
+    height: 7.6vw;
+    text-align: center;
+    float: left;
+    padding-top: 2vw;
+}
+
+.setUp .up .back_icon img {
+    width: 2.13vw;
+    height: 4vw;
+}
+
+.setUp .up .title {
+    width: 74vw;
+    text-align: center;
+    float: left;
+    font-family: PingFang-SC-Regular;
+    font-size: 4.8vw;
+    color: #333333;
+}
+
+.setUp .block {
+    width: 100vw;
+    height: 14.67vw;
+    background-color: #ffffff;
+}
+
+.setUp .block .con {
+    width: 92.53vw;
+    height: 14.67vw;
+    border-bottom: 0.2vw #f5f5f5 solid;
+    margin: 0 auto;
+}
+
+.setUp .block .con .left {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #33393f;
+    // display: inline-block;
+    // vertical-align: middle;
+    float: left;
+    line-height: 14.67vw;
+}
+
+.setUp .block .con .right {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #33393f;
+    // display: inline-block;
+    // vertical-align: middle;
+    float: right;
+    line-height: 14.67vw;
+}
+
+.setUp .block .con .arrow_fb {
+    margin-top: 5.5vw;
+    float: right;
+    width: 1.47vw;
+    height: 2.93vw;
+}
+
+.setUp .button {
+    width: 100vw;
+    height: 14.67vw;
+    background-color: #ffffff;
+    position: relative;
+    top: 2.67vw;
+}
+
+.setUp .button p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    color: #33393f;
+    line-height: 14.67vw;
+}
+
+
+/*系统设置*/
+
+
+/*发布-赛事*/
+
+.releaseBroadcast .up,
+.releaseQuestion .up,
+.releaseMatch .up {
+    width: 100vw;
+    height: 17.07vw;
+    background-color: #ffffff;
+    // box-shadow: 0vw 0.2vw 0vw 0vw #e5e5e5;
+    padding: 8.2vw 3.87vw 0vw 3.87vw;
+}
+
+.releaseBroadcast .up .back,
+.releaseQuestion .up .back,
+.releaseMatch .up .back {
+    width: 10vw;
+    height: 7.6vw;
+    text-align: center;
+    float: left;
+    padding-top: 2vw;
+}
+
+.releaseBroadcast .up .back img,
+.releaseQuestion .up .back img,
+.releaseMatch .up .back img {
+    width: 2.13vw;
+    height: 4vw;
+}
+
+.releaseBroadcast .up .title,
+.releaseQuestion .up .title,
+.releaseMatch .up .title {
+    width: 73vw;
+    text-align: center;
+    float: left;
+    font-family: PingFang-SC-Regular;
+    font-size: 4.8vw;
+    color: #333333;
+}
+
+.releaseBroadcast .up .but,
+.releaseQuestion .up .but,
+.releaseMatch .up .but {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.27vw;
+    color: #257aef;
+}
+
+.releaseBroadcast .fill,
+.releaseMatch .fill {
+    width: 92.53vw;
+    height: 14.67vw;
+    margin: 0 auto;
+    border-bottom: 0.2vw #e5e5e5 solid;
+}
+
+.releaseBroadcast .fill1,
+.releaseMatch .fill1 {
+    width: 92.53vw;
+    height: 14.67vw;
+    margin: 0 auto;
+    // border-bottom: 0.2vw #e5e5e5 solid;
+}
+
+.releaseBroadcast .fill1 .left,
+.releaseBroadcast .fill .left,
+.releaseMatch .fill .left,
+.releaseMatch .fill1 .left {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #333333;
+    float: left;
+    line-height: 14.67vw;
+}
+
+.releaseBroadcast .fill .Star,
+.releaseBroadcast .fill1 .Star,
+.releaseMatch .fill .Star,
+.releaseMatch .fill1 .Star {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #dd2727;
+    float: left;
+    line-height: 14.67vw;
+}
+
+.releaseBroadcast .fill .right,
+.releaseBroadcast .fill1 .right,
+.releaseMatch .fill .right,
+.releaseMatch .fill1 .right {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #999999;
+    float: right;
+    line-height: 14.67vw;
+}
+
+.releaseBroadcast .fill .arrow_fb,
+.releaseBroadcast .fill1 .arrow_fb,
+.releaseMatch .fill .arrow_fb,
+.releaseMatch .fill1 .arrow_fb {
+    float: right;
+    width: 1.47vw;
+    height: 2.93vw;
+    margin-top: 5.7vw;
+    margin-left: 2vw;
+}
+
+.releaseBroadcast .fill .add_img,
+.releaseMatch .fill .add_img {
+    width: 16.27vw;
+    height: 16.27vw;
+    float: right;
+    margin-top: 3.8vw;
+}
+
+
+/*发布-赛事*/
+
+
+/*发布-赛事-奖励设置*/
+
+.releaseMatchSynopsis .up,
+.releaseMatchReward .up {
+    width: 100vw;
+    height: 17.07vw;
+    background-color: #ffffff;
+    box-shadow: 0vw 0.13vw 0vw 0vw #e5e5e5;
+    padding-left: 3.87vw;
+    padding-right: 3.87vw;
+    padding-top: 4vw;
+}
+
+.releaseMatchSynopsis .up .cancel,
+.releaseMatchReward .up .cancel {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.27vw;
+    color: #333333;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.releaseMatchSynopsis .up .block,
+.releaseMatchReward .up .block {
+    width: 73vw;
+    display: inline-block;
+    vertical-align: middle;
+    height: 13.07vw;
+}
+
+.releaseMatchSynopsis .up .but,
+.releaseMatchReward .up .but {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.27vw;
+    color: #257aef;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.releaseMatchReward .con {
+    width: 100vw;
+    padding-left: 9.3vw;
+    padding-right: 9.3vw;
+    padding-top: 8vw;
+}
+
+.releaseMatchReward .con .title {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #000000;
+    margin-bottom: 4vw;
+}
+
+.releaseMatchReward .con .num {
+    width: 81.33vw;
+    height: 11.73vw;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 0.53vw;
+    border: solid 0.2vw #e5e5e5;
+    text-align: center;
+    margin-bottom: 8vw;
+}
+
+.releaseMatchReward .con .num input {
+    width: 74vw;
+    margin-top: 3.5vw;
+    border: none;
+}
+
+.releaseMatchReward input::-webkit-input-placeholder {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #999999;
+}
+
+
+/*发布-赛事-奖励设置*/
+
+
+/*发布-赛事-赛事简介*/
+
+.releaseMatchSynopsis .content {
+    width: 100vw;
+    height: 80vh;
+}
+
+.releaseMatchSynopsis .content p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    color: #999999;
+    margin-top: 4.93vw;
+    margin-left: 3.87vw;
+}
+
+
+/*发布-赛事-赛事简介*/
+
+
+/*发布-提问*/
+
+.releaseQuestion .content {
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+}
+
+.releaseQuestion .content .title {
+    font-family: PingFang-SC-Bold;
+    font-size: 5.33vw;
+    color: #acacac;
+    margin-top: 6.9vw;
+    margin-left: 4.4vw;
+}
+
+.releaseQuestion .content .invitation {
+    margin-top: 21.07vw;
+    margin-left: 3.73vw;
+}
+
+.releaseQuestion .content .invitation img {
+    width: 3.73vw;
+    height: 3.73vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.releaseQuestion .content .invitation p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #257aef;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/*发布-提问*/
+
+
+/*消息-转发*/
+
+.newsForward .up {
+    width: 100vw;
+    height: 17.07vw;
+    padding-top: 9.2vw;
+    padding-left: 3.73vw;
+    padding-right: 3.73vw;
+}
+
+.newsForward .up .back_icon {
+    width: 11vw;
+    // height: 17.07vw;
+    display: inline-block;
+}
+
+.newsForward .up .back_icon img {
+    width: 2.13vw;
+    height: 4vw;
+}
+
+.newsForward .up .title {
+    width: 73vw;
+    // height: 17.07vw;
+    text-align: center;
+    display: inline-block;
+}
+
+.newsForward .up .title p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.8vw;
+    color: #333333;
+}
+
+.newsForward .reply,
+.newsForward .con {
+    width: 100vw;
+    padding: 4vw 3.73vw 4vw 3.73vw;
+}
+
+.reply .user img,
+.newsForward .con .user img {
+    width: 9.87vw;
+    height: 9.87vw;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2vw;
+}
+
+.reply .user .people,
+.newsForward .con .user .people {
+    width: 65vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.reply .user .people .name,
+.newsForward .con .user .people .name {
+    font-family: PingFang-SC-Medium;
+    font-size: 3.73vw;
+    color: #33393f;
+}
+
+.reply .user .people .time,
+.newsForward .con .user .people .time {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #a4a6aa;
+}
+
+.newsForward .forward {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    color: #1e2225;
+    margin-top: 3.2vw;
+    margin-bottom: 3.07vw;
+}
+
+.newsForward .block {
+    width: 92.53vw;
+    height: 18.67vw;
+    background-color: #eef0f2;
+}
+
+.newsForward .block .share_img {
+    width: 18.67vw;
+    height: 18.67vw;
+    float: left;
+}
+
+.newsForward .block .content {
+    padding: 2.5vw 4vw;
+    width: 73.8vw;
+    height: 18.67vw;
+    float: right;
+}
+
+.newsForward .block .content .title {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.47vw;
+    color: #333333;
+    margin-bottom: 1vw;
+}
+
+.newsForward .block .content .say {
+    font-family: PingFang-SC-Regular;
+    font-size: 2.93vw;
+    color: #999999;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-align: justify;
+}
+
+.newsForward .share {
+    width: 92.53vw;
+    height: 8.13vw;
+    padding-top: 4.13vw;
+}
+
+.newsForward .share div {
+    width: 30.8vw;
+    // height: 12.13vw;
+    text-align: center;
+    float: left;
+}
+
+.newsForward .share div .q_comment,
+.newsForward .share div .q_share {
+    width: 4vw;
+    height: 3.73vw;
+}
+
+.newsForward .share div .q_like_nor {
+    width: 3.87vw;
+    height: 4.13vw;
+}
+
+.newsForward .share div span {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #333333;
+}
+
+
+/*消息-转发*/
+
+
+/*消息-评论*/
+
+.newsForward .con .user .but {
+    display: inline-block;
+    vertical-align: middle;
+    width: 13.33vw;
+    height: 7.2vw;
+    background-color: rgba(231, 241, 255, 1);
+    border-radius: 0.53vw;
+    text-align: center;
+}
+
+.newsForward .con .user .but p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #257aef;
+    line-height: 7.2vw;
+}
+
+.newsForward .comment {
+    width: 100vw;
+    // height: 38.4vw;
+    background-color: #eef0f2;
+    padding: 4vw 3.73vw;
+}
+
+.newsForward .comment .com {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #666666;
+}
+
+
+/*消息-评论*/
+
+
+/*消息-点赞*/
+
+.comment .block .new {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #1e2225;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-align: justify;
+}
+
+
+/*消息-点赞*/
+
+
+/*消息-邀请*/
+
+.newsForward .con .answer {
+    height: 4vw;
+}
+
+.newsForward .con .answer .time {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #999999;
+    float: left;
+}
+
+.newsForward .con .answer div {
+    float: right;
+}
+
+.newsForward .con .answer div img {
+    width: 3.07vw;
+    height: 2.93vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.newsForward .con .answer div span {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #257aef;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/*消息-邀请*/
+
+
+/*切换城市*/
+
+.changeCity .up {
+    width: 100VW;
+    position: relative;
+}
+
+.changeCity .up .back_icon {
+    width: 2.27vw;
+    height: 4.13vw;
+    margin-top: 9.07vw;
+    margin-left: 3.73vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.changeCity .up .title {
+    width: 85vw;
+    text-align: center;
+    font-family: PingFang-SC-Regular;
+    font-size: 4.8vw;
+    color: #333333;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 9.2vw;
+}
+
+.changeCity .serach {
+    width: 92.53vw;
+    height: 8.53vw;
+    margin: 0 auto;
+    margin-top: 5.2vw;
+    position: relative;
+}
+
+.changeCity .serach input {
+    border: none;
+    width: 92.53vw;
+    height: 8.53vw;
+    background-color: #f3f5f7;
+    border-radius: 4.27vw;
+    text-align: center;
+}
+
+.changeCity .serach input::-webkit-input-placeholder {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #b8babf;
+}
+
+.changeCity .serach img {
+    width: 3.73vw;
+    height: 4vw;
+    position: absolute;
+    top: 2.13vw;
+    left: 33.73vw;
+}
+
+.changeCity .current {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #999999;
+    margin-top: 5vw;
+    margin-left: 3.87vw;
+}
+
+.changeCity .address {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.27vw;
+    color: #333333;
+    margin-top: 5vw;
+    margin-left: 3.87vw;
+    margin-bottom: 5vw;
+}
+
+.changeCity .place_name {
+    width: 100vw;
+}
+
+.changeCity .place_name .Letter {
+    width: 100VW;
+    height: 6.67VW;
+    background-color: #f3f3f3;
+    padding-left: 3.73vw;
+}
+
+.changeCity .place_name .Letter p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #999999;
+    line-height: 6.67VW;
+}
+
+.changeCity .place_name .block {
+    width: 100vw;
+    height: 13.33vw;
+}
+
+.changeCity .place_name .block div {
+    width: 95.73vw;
+    height: 13.33vw;
+    float: right;
+    border-bottom: #e0e2e6 0.2vw solid;
+}
+
+.changeCity .place_name .block div p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.27vw;
+    color: #333333;
+    line-height: 13.33vw;
+}
+
+
+/*切换城市*/
+
+
+/*找回密码*/
+
+.foundPassword .up {
+    margin-bottom: 20vw;
+}
+
+.foundPassword .up .back_icon {
+    width: 10vw;
+    height: 10vw;
+    text-align: center;
+    margin-top: 6.47vw;
+    padding-top: 3vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.foundPassword .up .title {
+    margin-top: 5vw;
+    width: 82vw;
+    text-align: center;
+    font-family: PingFang-SC-Medium;
+    font-size: 4.8vw;
+    color: #272727;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.foundPassword .up .back_icon img {
+    width: 2.13vw;
+    height: 4vw;
+}
+
+.foundPassword .block {
+    width: 77.6vw;
+    height: 16vw;
+    margin: 0 auto;
+    border-bottom: 0.2vw #e5e5e5 solid;
+    position: relative;
+}
+
+.foundPassword .block .input {
+    width: 77.6vw;
+    height: 15vw;
+    margin: 0 auto;
+    border: none;
+}
+
+.foundPassword input::-webkit-input-placeholder {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #999999;
+}
+
+.foundPassword .block .code {
+    height: 15vw;
+    border: none;
+}
+
+.foundPassword .block .code_but {
+    width: 28vw;
+    height: 9.07vw;
+    background-color: #ffffff;
+    border-radius: 4.53vw;
+    border: solid 0.2vw #257aef;
+    text-align: center;
+    position: absolute;
+    top: 3.5vw;
+    right: 0;
+}
+
+.foundPassword .block .code_but p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #257aef;
+    line-height: 9.07vw;
+}
+
+.foundPassword .butten {
+    width: 77.6vw;
+    height: 12.27vw;
+    background-color: #257aef;
+    border-radius: 6.13vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 9vw;
+}
+
+.foundPassword .butten p {
+    font-family: PingFang-SC-Medium;
+    font-size: 4.53vw;
+    color: #ffffff;
+    line-height: 12.27vw;
+}
+
+
+/*找回密码*/
+
+
+/*登录/注册*/
+
+.login {
+    width: 100vw;
+    text-align: center;
+}
+
+.login .up .off {
+    width: 10vw;
+    height: 10vw;
+    text-align: center;
+    padding-top: 3vw;
+    margin-top: 6.3vw;
+}
+
+.login .up .off img {
+    width: 3.33vw;
+    height: 3.47vw;
+}
+
+.login .up .title {
+    width: 100vw;
+    text-align: center;
+    font-family: PingFang-SC-Bold;
+    font-size: 6.67vw;
+    color: #000000;
+    margin-top: 12.4vw;
+    margin-bottom: 11vw;
+}
+
+.login .phone {
+    height: 12vw;
+    border: none;
+    width: 77.6vw;
+    border-bottom: 0.2vw #e5e5e5 solid;
+    margin-bottom: 4vw;
+}
+
+.login .code {
+    height: 12vw;
+    border: none;
+    width: 77.6vw;
+    border-bottom: 0.2vw #e5e5e5 solid;
+    margin-bottom: 4vw;
+}
+
+.login .code_but {
+    height: 9.07vw;
+    background-color: #ffffff;
+    border-radius: 4.53vw;
+    border: solid 0.2vw #257aef;
+    display: table;
+    text-align: center;
+    padding: 0vw 4.13vw;
+    position: absolute;
+    top: 0vw;
+    right: 11vw;
+}
+
+.login .code_but p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #257aef;
+    line-height: 9.07vw;
+}
+
+.login .password {
+    height: 12vw;
+    border: none;
+    width: 77.6vw;
+    border-bottom: 0.2vw #e5e5e5 solid;
+    margin-bottom: 9.33vw;
+}
+
+.login button {
+    width: 77.6vw;
+    height: 12.27vw;
+    background-color: #257aef;
+    border-radius: 6.13vw;
+    font-family: PingFang-SC-Medium;
+    font-size: 4.53vw;
+    color: #ffffff;
+    line-height: 12.27vw;
+}
+
+.login input::-webkit-input-placeholder {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #999999;
+    line-height: 12vw;
+}
+
+.login .lianjie {
+    margin-top: 50vw;
+}
+
+.login .lianjie a,
+.login .lianjie span {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #666666;
+}
+
+
+/*登录/注册*/
+
+
+/*赛事-结果*/
+
+.matchResult {
+    display: table;
+}
+
+.matchResult .up {
+    width: 100vw;
+    height: 56vw;
+}
+
+.matchResult .up .game_xq_img {
+    width: 100vw;
+    height: 56vw;
+}
+
+.matchResult .up .arrow_write {
+    width: 10vw;
+    height: 9.3;
+    position: absolute;
+    top: 6.8vw;
+    padding: 2vw 3.73vw;
+}
+
+.matchResult .up .arrow_write img {
+    width: 2.27vw;
+    height: 4.13vw;
+}
+
+.matchResult .up .more_gme {
+    width: 12.8vw;
+    height: 8vw;
+    position: absolute;
+    top: 7.2vw;
+    right: 0;
+    padding: 2vw 3.73vw;
+}
+
+.matchResult .up .more_gme img {
+    width: 5.33vw;
+    height: 1.07vw;
+}
+
+.matchResult .match_new {
+    width: 92.53vw;
+    border-bottom: 0.2vw #e5e5e5 solid;
+    padding: 4.53vw 0vw 6.4vw 0vw;
+    margin: 0 auto;
+}
+
+.matchResult .match_new .titel {
+    font-family: PingFang-SC-Bold;
+    font-size: 4.8vw;
+    color: #333333;
+    font-weight: 550;
+    margin-bottom: 4.8vw;
+}
+
+.matchResult .match_new .prize {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    color: #333333;
+    text-align: justify;
+}
+
+.matchResult .Publish {
+    width: 92.53vw;
+    margin: 0 auto;
+    padding: 5.33vw 0vw 2vw 0vw;
+    display: table;
+}
+
+.matchResult .Publish .title {
+    text-align: center;
+    font-family: PingFang-SC-Bold;
+    font-size: 4.8vw;
+    color: #333333;
+    font-weight: 550;
+    margin-bottom: 4vw;
+}
+
+.matchResult .Publish .Winner {
+    width: 100%;
+    display: table;
+}
+
+.matchResult .Publish .Winner .one {
+    width: 100%;
+    display: table;
+    margin-bottom: 2vw;
+}
+
+.matchResult .Publish .Winner .left {
+    float: left;
+    height: 7vw;
+    // display: inline-block;
+    vertical-align: middle;
+}
+
+.matchResult .Publish .Winner .left .champion {
+    width: 4.8vw;
+    height: 6.8vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.matchResult .Publish .Winner .left .head {
+    width: 6.13vw;
+    height: 6.13vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.matchResult .Publish .Winner .left .name {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #333333;
+    line-height: 7vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.matchResult .Publish .Winner .right {
+    float: right;
+    height: 7vw;
+    // display: inline-block;
+    vertical-align: middle;
+}
+
+.matchResult .Publish .Winner .right p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #333333;
+    line-height: 7vw;
+}
+
+.matchResult .Publish .Winner .img_num {
+    width: 100%;
+    position: relative;
+    display: table;
+}
+
+.matchResult .Publish .Winner .img_num .img {
+    width: 92.53vw;
+    height: 53.33vw;
+    // margin-top: 2vw;
+    margin-bottom: 5.6vw;
+}
+
+.matchResult .Publish .Winner .img_num .number {
+    height: 4vw;
+    border-radius: 2vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1.25rem;
+    font-family: PingFang-SC-Regular;
+    padding: 0vw 2vw;
+    line-height: 4vw;
+    display: table;
+    position: absolute;
+    top: 2.4vw;
+    left: 2.4vw;
+}
+
+.matchResult .Publish2 {
+    margin-left: 3.73vw;
+}
+
+.matchResult .Publish2 .title2 {
+    text-align: center;
+    font-family: PingFang-SC-Medium;
+    font-size: 4vw;
+    color: #333333;
+    font-weight: 550;
+    margin-bottom: 5.33vw;
+}
+
+.matchResult .Publish2 .excellent1 {
+    width: 44.93vw;
+    display: table;
+    float: left;
+    margin-bottom: 2vw;
+    margin-right: 2.67vw;
+}
+
+.matchResult .Publish2 .excellent1 .img {
+    position: relative;
+}
+
+.matchResult .Publish2 .excellent .img_game_vote {
+    width: 44.93vw;
+    height: 33.87vw;
+}
+
+.matchResult .Publish2 .excellent1 .img .number {
+    height: 4vw;
+    border-radius: 2vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1.25rem;
+    font-family: PingFang-SC-Regular;
+    padding: 0vw 2vw;
+    line-height: 4vw;
+    display: table;
+    position: absolute;
+    top: 2.4vw;
+    left: 2.4vw;
+}
+
+.matchResult .Publish2 .excellent1 .one {
+    width: 100%;
+    display: table;
+    margin-bottom: 2vw;
+}
+
+.matchResult .Publish2 .excellent1 .left {
+    float: left;
+    height: 7vw;
+    // display: inline-block;
+    vertical-align: middle;
+}
+
+.matchResult .Publish2 .excellent1 .left .head {
+    width: 6.13vw;
+    height: 6.13vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.matchResult .Publish2 .excellent1 .left .name {
+    width: 15vw;
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #333333;
+    line-height: 7vw;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: justify;
+}
+
+.matchResult .Publish2 .excellent1 .right {
+    float: right;
+    height: 7vw;
+    // display: inline-block;
+    vertical-align: middle;
+}
+
+.matchResult .Publish2 .excellent1 .right p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #333333;
+    line-height: 7vw;
+}
+
+
+/*赛事-结果*/
+
+
+/*赛事-投票*/
+
+.matchVote {
+    width: 100vw;
+    display: table;
+}
+
+.matchVote .up {
+    width: 100vw;
+    height: 56vw;
+    position: relative;
+}
+
+.matchVote .up .game_xq_img {
+    width: 100vw;
+    height: 56vw;
+}
+
+.matchVote .up .arrow_write {
+    width: 10vw;
+    height: 9.3;
+    position: absolute;
+    top: 6.8vw;
+    padding: 2vw 3.73vw;
+}
+
+.matchVote .up .arrow_write img {
+    width: 2.27vw;
+    height: 4.13vw;
+}
+
+.matchVote .up .more_gme {
+    width: 12.8vw;
+    height: 8vw;
+    position: absolute;
+    top: 7.2vw;
+    right: 0;
+    padding: 2vw 3.73vw;
+}
+
+.matchVote .up .serch_game_icon {
+    width: 12.8vw;
+    height: 8vw;
+    position: absolute;
+    top: 7.2vw;
+    right: 10.73vw;
+    padding: 2vw 3.73vw;
+}
+
+.matchVote .up .serch_game_icon img {
+    width: 4.13vw;
+    height: 4.53vw;
+}
+
+.matchVote .up .more_gme img {
+    width: 5.33vw;
+    height: 1.07vw;
+}
+
+.matchVote .match_title {
+    width: 92.53vw;
+    margin: 0 auto;
+    border-bottom: 0.2vw #e5e5e5 solid;
+    padding: 4.53vw 0vw 5.33vw 0vw;
+    background-color: #fff;
+}
+
+.matchVote .match_title .title {
+    font-family: PingFang-SC-Bold;
+    font-size: 4.8vw;
+    color: #333333;
+    font-weight: 550;
+}
+
+.matchVote .match_title .vote_time {
+    // width: 56.53vw;
+    height: 5.33vw;
+    background-color: #ff6613;
+    border-radius: 0.53vw;
+    text-align: center;
+    display: table;
+    padding: 0vw 2vw 0vw 2vw;
+    margin-top: 4vw;
+}
+
+.matchVote .match_title .vote_time p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #ffffff;
+    line-height: 5.33vw;
+}
+
+.matchVote .me {
+    width: 100vw;
+    height: 17.87vw;
+    padding: 0vw 4vw;
+    background-color: #fff;
+}
+
+.matchVote .me .left {
+    padding-top: 4.13vw;
+    height: 17.87vw;
+    float: left;
+}
+
+.matchVote .me .left img {
+    width: 9.87vw;
+    height: 9.87vw;
+    margin-right: 2vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.matchVote .me .left p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #000000;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.matchVote .me .right {
+    height: 17.87vw;
+    float: right;
+}
+
+.matchVote .me .right span {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    line-height: 17.87vw;
+}
+
+.matchVote .other {
+    width: 100vw;
+    padding: 4.8vw 0vw 2.27vw 3.73vw;
+    background-color: #f3f3f3;
+    display: table;
+}
+
+.matchVote .other .careful {
+    text-align: center;
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #999999;
+    margin-bottom: 2vw;
+}
+
+.matchVote .other .list {
+    margin-top: 2.67vw;
+    width: 44.93vw;
+    height: 56vw;
+    background-color: #fff;
+    float: left;
+    margin-right: 2.67vw;
+}
+
+.matchVote .other .list .img_game_vote {
+    width: 44.93vw;
+    height: 33.87vw;
+}
+
+.matchVote .other .list .information {
+    width: 44.93vw;
+    height: 22.13vw;
+}
+
+.matchVote .other .list .people {
+    width: 100%;
+    text-align: center;
+    margin-top: 2.67vw;
+    margin-bottom: 3vw;
+}
+
+.matchVote .other .list .people .head {
+    width: 6.13vw;
+    height: 6.13vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.matchVote .other .list .people .name {
+    font-family: PingFang-SC-Medium;
+    font-size: 2.93vw;
+    color: #666666;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.matchVote .other .list .vote {
+    width: 100%;
+    padding: 0vw 2.4vw;
+}
+
+.matchVote .other .list .vote .num {
+    height: 7.2vw;
+    line-height: 7.2vw;
+    font-family: PingFang-SC-Medium;
+    font-size: 3.73vw;
+    color: #333333;
+    float: left;
+}
+
+.matchVote .other .list .vote .but {
+    width: 16vw;
+    height: 7.2vw;
+    background-color: #257aef;
+    border-radius: 0.53vw;
+    text-align: center;
+    float: right;
+}
+
+.matchVote .other .list .vote .but p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.47vw;
+    color: #ffffff;
+    line-height: 7.2vw;
+}
+
+
+/*赛事-投票*/
+
+
+/*我的-浏览记录/我的-收藏/我的-评论/我的-点赞/我的-发布*/
+
+.myBrowse {
+    width: 100vw;
+    display: table;
+    background-color: #fff;
+}
+
+.myBrowse .up {
+    width: 100vw;
+    height: 17.07vw;
+    background-color: #ffffff;
+    padding: 5.5vw 3.73vw 0vw 3.73vw;
+}
+
+.myBrowse .up .back_icon {
+    width: 10vw;
+    height: 11vw;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 3.5vw;
+}
+
+.myBrowse .up .back_icon img {
+    width: 2.13vw;
+    height: 4vw;
+}
+
+.myBrowse .up .title {
+    width: 72vw;
+    height: 11vw;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.myBrowse .up .title p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.8vw;
+    color: #272727;
+    line-height: 11vw;
+}
+
+.myBrowse .up .edit {
+    height: 11vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.myBrowse .up .edit p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.27vw;
+    color: #257aef;
+    line-height: 11vw;
+}
+
+.browse {
+    width: 100vw;
+    padding: 4vw 3.73vw 0vw 3.73vw;
+    display: table;
+}
+
+.browse .people {
+    width: 100%;
+}
+
+.browse .people .header {
+    width: 9.87vw;
+    height: 9.87vw;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2.13vw;
+}
+
+.browse .people .right {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.browse .people .right .name {
+    font-family: PingFang-SC-Medium;
+    font-size: 3.73vw;
+    color: #33393f;
+}
+
+.browse .people .right .time {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #a4a6aa;
+}
+
+.browse .title {
+    margin-top: 3vw;
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    color: #1e2225;
+    margin-bottom: 3vw;
+}
+
+.browse .img {
+    width: 92.53vw;
+    height: 52vw;
+    // margin-top: 3vw;
+}
+
+.browse .share {
+    width: 100%;
+    height: 12.27vw;
+}
+
+.browse .share div {
+    width: 30.8vw;
+    height: 12.27vw;
+    float: left;
+    text-align: center;
+}
+
+.browse .share div .q_comment,
+.browse .share div .q_share {
+    width: 4vw;
+    height: 3.73vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.browse .share div .q_like_nor {
+    width: 3.87vw;
+    height: 4.13vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.browse .share div .q_like_sel {
+    width: 3.87vw;
+    height: 4.13vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.share div p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #333333;
+    line-height: 12.27vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.share div .yes {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #257aef;
+    line-height: 12.27vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.browse .question {
+    margin-top: 4vw;
+    width: 92.53vw;
+    background-color: #ffffff;
+    border: solid 0.2vw #e5e5e5;
+    padding: 3.5vw 2.7vw;
+}
+
+.browse .question p {
+    font-family: PingFang-SC-Bold;
+    font-size: 5.07vw;
+    color: #1e2225;
+    font-weight: 600;
+}
+
+.browse .answer {
+    width: 100%;
+    height: 10.67vw;
+    text-align: center;
+}
+
+.browse .answer .reply {
+    width: 3.6vw;
+    height: 3.6vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.browse .answer p {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #333333;
+    line-height: 10.67vw;
+}
+
+.browse .title1 {
+    margin-top: 3vw;
+    font-family: PingFang-SC-Regular;
+    font-size: 4.5vw;
+    color: #1e2225;
+    font-weight: 550;
+    text-align: justify;
+    margin-bottom: 3vw;
+}
+
+.browse .con {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    color: #1e2225;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-align: justify;
+}
+
+.browse .all {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    color: #257aef;
+}
+
+.browse .comment {
+    width: 92.53vw;
+    background-color: #ffffff;
+    border: solid 0.2vw #e5e5e5;
+    padding: 3vw;
+    // margin-top: 3vw;
+}
+
+.browse .comment .name {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #257aef;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+
+.browse .comment .con1 {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #1e2225;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.myRelease .release_nav {
+    width: 100vw;
+    height: 11.73vw;
+    border-bottom: 0.2vw #e5e5e5 solid;
+}
+
+.myRelease .release_nav div {
+    height: 11.73vw;
+    width: 20vw;
+    padding-left: 3.6vw;
+    float: left;
+}
+
+.myRelease .release_nav div p {
+    height: 11.73vw;
+    // padding-top: 4vw;
+    display: table;
+    line-height: 11.73vw;
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+}
+
+.myRelease .release_nav div .yes {
+    color: #257aef;
+    border-bottom: 0.53vw #257aef solid;
+}
+
+.myRelease .release_nav div .no {
+    color: #333333;
+}
+
+
+/*我的-浏览记录/我的-收藏/我的-评论/我的-点赞/我的-发布*/
+
+
+/*我的-赞友/我的-关注*/
+
+.myFans .block {
+    width: 100vw;
+    height: 19.73vw;
+    // padding: 3vw 0vw 0vw 3.73vw;
+    padding-left: 3.73vw;
+    // padding-top: 3vw;
+}
+
+.myFans .block .header {
+    width: 13.33vw;
+    height: 13.33vw;
+    float: left;
+    margin-right: 2vw;
+    margin-top: 3vw;
+}
+
+.myFans .block .right {
+    float: right;
+    height: 19.73vw;
+    width: 79.9vw;
+    padding-right: 3.73vw;
+    padding-top: 4vw;
+    border-bottom: 0.2vw #e5e5e5 solid;
+}
+
+.myFans .block .people {
+    float: left;
+}
+
+.myFans .block .people .name {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.27vw;
+    color: #333333;
+    margin-bottom: 2.5vw;
+}
+
+.myFans .block .people .introduce {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #a4a6aa;
+}
+
+.myFans .block .comment {
+    height: 6vw;
+    border-radius: 0.27vw;
+    border: solid 0.2vw #257aef;
+    text-align: center;
+    float: right;
+    margin-top: 3vw;
+    padding: 0vw 2vw 0vw 2vw;
+}
+
+.myFans .block .comment .attention_add {
+    width: 2.67vw;
+    height: 2.67vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.myFans .block .comment1 .gz_icon {
+    width: 2.8vw;
+    height: 2.27vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.myFans .block .comment .comment_yes {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #257aef;
+    line-height: 6vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.myFans .block .comment1 {
+    height: 6vw;
+    padding: 0vw 2vw 0vw 2vw;
+    border-radius: 0.27vw;
+    border: solid 0.2vw #dddddd;
+    text-align: center;
+    float: right;
+    margin-top: 3vw;
+    padding: 0vw 2vw 0vw 2vw;
+}
+
+.myFans .block .comment1 .attention_another {
+    width: 2.4vw;
+    height: 1.87vw;
+}
+
+.myFans .block .comment1 .comment_no {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #64676c;
+    line-height: 6vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/*我的-赞友/我的-关注*/
+
+
+/*我的-发布*/
+
+.myRelease .none {
+    width: 100vw;
+    height: 120vw;
+    text-align: center;
+}
+
+.myRelease .none p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    color: #1e2225;
+    line-height: 120vw;
+}
+
+
+/*我的-发布*/
+
+
+/*我的-设置*/
+
+.mySetUp .block {
+    width: 100vw;
+    height: 14.67vw;
+    background-color: #ffffff;
+    padding: 0vw 4vw 0vw 4vw;
+}
+
+.mySetUp .block .block_in {
+    width: 92.53vw;
+    height: 14.67vw;
+    border-bottom: 0.2vw #f3f3f3 solid;
+}
+
+.mySetUp .block .block_in .left {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #33393f;
+    line-height: 14.67vw;
+    float: left;
+}
+
+.mySetUp .block .block_in .right {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #64676c;
+    line-height: 14.67vw;
+    float: right;
+}
+
+.mySetUp .block .block_in .arrow_fb {
+    float: right;
+    width: 1.47vw;
+    height: 2.93vw;
+    margin-top: 6vw;
+}
+
+.mySetUp .but {
+    width: 100vw;
+    height: 14.67vw;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 2.67vw;
+}
+
+.mySetUp .but p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    color: #dd2727;
+    line-height: 14.67vw;
+}
+
+
+/*我的-设置*/
+
+
+/*我的-报名的赛事*/
+
+.mySignUp .signup_nav {
+    width: 100vw;
+    height: 11.73vw;
+    border-bottom: 0.2vw #e5e5e5 solid;
+}
+
+.mySignUp .signup_nav div {
+    width: 33vw;
+    height: 11.73vw;
+    float: left;
+    padding-left: 10vw;
+}
+
+.mySignUp .signup_nav div p {
+    display: table;
+    height: 11.73vw;
+    font-family: PingFang-SC-Medium;
+    font-size: 4vw;
+    line-height: 11.73vw;
+}
+
+.mySignUp .signup_nav .yes {
+    color: #257aef;
+    border-bottom: 0.53vw solid #257aef;
+}
+
+.mySignUp .signup_nav .no {
+    color: #333333;
+}
+
+
+/*我的-报名的赛事*/
+
+
+/*我的-钱包*/
+
+.myWallet .up {
+    width: 100vw;
+    height: 69.73vw;
+    background-color: #257aef;
+    padding-top: 9vw;
+    position: relative;
+}
+
+.myWallet .up .arrow_write {
+    width: 11vw;
+    // height: 11vw;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.myWallet .up .arrow_write img {
+    width: 2.13vw;
+    height: 4vw;
+}
+
+.myWallet .up .title {
+    width: 72vw;
+    // height: 11vw;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.myWallet .up .title p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.8vw;
+    color: #ffffff;
+}
+
+.myWallet .up .bank_card {
+    width: 15vw;
+    // height: 11vw;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.myWallet .up .bank_card img {
+    width: 5.6vw;
+    height: 4.27vw;
+}
+
+.myWallet .up .balance {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #ffffff;
+    opacity: 0.4;
+    text-align: center;
+    margin-top: 7vw;
+}
+
+.myWallet .up .price {
+    font-family: PingFang-SC-Heavy;
+    font-size: 13.33vw;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.myWallet .up .history {
+    font-family: PingFang-SC-Regular;
+    font-size: 2.93vw;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.myWallet .position {
+    width: 100vw;
+    position: absolute;
+    top: 57.73vw;
+}
+
+.myWallet .position .buttom {
+    width: 92.53vw;
+    height: 24vw;
+    background-color: #ffffff;
+    border-radius: 0.8vw;
+    margin: 0 auto;
+    padding: 4vw;
+}
+
+.myWallet .position .buttom .buttom_in {
+    height: 16vw;
+    // background-color: #999999;
+}
+
+.myWallet .position .buttom .buttom_in div {
+    float: left;
+    width: 42vw;
+    text-align: center;
+}
+
+.myWallet .position .buttom .buttom_in div p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.47vw;
+    color: #333333;
+}
+
+.recharge_icon {
+    width: 8.4vw;
+    height: 8.4vw;
+}
+
+.withdraw {
+    width: 8vw;
+    height: 6.13vw;
+    margin-bottom: 2vw;
+}
+
+.detailed {
+    width: 100vw;
+    height: 27.47vw;
+    padding: 15vw 3.73vw 0vw 3.73vw;
+    background-color: #f3f3f3;
+}
+
+.detailed .left {
+    height: 7.2vw;
+    background-color: #ffffff;
+    border-radius: 3.6vw;
+    display: table;
+    padding: 0vw 2.8vw;
+    float: left;
+    margin-top: 1vw;
+}
+
+.detailed .right {
+    float: right;
+    text-align: right;
+}
+
+.detailed .right p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #999999;
+}
+
+.detailed .left p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.87vw;
+    color: #333333;
+    line-height: 7.2vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.detailed .left img {
+    width: 2.4vw;
+    height: 1.33vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.myWallet .block {
+    width: 100vw;
+    height: 18.4vw;
+    background-color: #ffffff;
+}
+
+.myWallet .block .in {
+    width: 92.53vw;
+    height: 18.4vw;
+    margin: 0 auto;
+    border-bottom: 0.2vw #e5e5e5 solid;
+}
+
+.myWallet .block .in .left {
+    height: 18.4vw;
+    width: 66vw;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 3vw;
+}
+
+.myWallet .block .in .left .title {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    color: #33393f;
+    margin-bottom: 1vw;
+}
+
+.myWallet .block .in .left .time {
+    font-family: PingFang-SC-Regular;
+    font-size: 2.93vw;
+    color: #a4a6aa;
+}
+
+.myWallet .block .in .right {
+    height: 18.4vw;
+    width: 25vw;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.myWallet .block .in .right .plus {
+    font-family: PingFang-SC-Medium;
+    font-size: 4.53vw;
+    color: #00ad39;
+    line-height: 18.4vw;
+}
+
+.myWallet .block .in .right .reduce {
+    font-family: PingFang-SC-Medium;
+    font-size: 4.53vw;
+    color: #e60707;
+    line-height: 18.4vw;
+}
+
+
+/*我的-钱包*/
+
+
+/* 我的-我的钱包-银行卡*/
+
+.myWalletBankCar .card {
+    width: 92.53vw;
+    height: 40.27vw;
+    margin: 0 auto;
+    margin-top: 5vw;
+    position: relative;
+}
+
+.myWalletBankCar .card .card_number {
+    height: 5vw;
+    position: absolute;
+    top: 24vw;
+    left: 5.07vw;
+    display: table;
+}
+
+.myWalletBankCar .card .card_number .star {
+    float: left;
+    font-family: PingFang-SC-Medium;
+    font-size: 4.8vw;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.myWalletBankCar .card .card_number .tail {
+    float: left;
+    font-family: PingFang-SC-Medium;
+    font-size: 4.8vw;
+    color: #ffffff;
+    line-height: 5vw;
+}
+
+
+/* 我的-我的钱包-银行卡*/
+
+
+/*我的-我的钱包-更换银行卡*/
+
+.myWalletChangeBank .block {
+    width: 100vw;
+    height: 14.67vw;
+    background-color: #ffffff;
+}
+
+.myWalletChangeBank .block .in {
+    width: 92.53vw;
+    height: 14.67vw;
+    margin: 0 auto;
+}
+
+.myWalletChangeBank .block .in .title {
+    width: 25vw;
+    display: inline-block;
+    vertical-align: middle;
+    height: 14.67vw;
+}
+
+.myWalletChangeBank .block .in .title p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #33393f;
+    line-height: 14.67vw;
+}
+
+.myWalletChangeBank .block .in input {
+    border: none;
+}
+
+.myWalletChangeBank .block .in input::-webkit-input-placeholder {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #a4a6aa;
+}
+
+.myWalletChangeBank .block .in .center {
+    display: inline-block;
+    vertical-align: middle;
+    width: 64vw;
+}
+
+.myWalletChangeBank .block .in .center p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #a4a6aa;
+}
+
+.myWalletChangeBank .block .in .arrow_fb {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.47vw;
+    height: 2.93vw;
+}
+
+.myWalletChangeBank .block .in .title1 {
+    width: 21vw;
+    display: inline-block;
+    vertical-align: middle;
+    height: 14.67vw;
+    text-align: right;
+}
+
+.myWalletChangeBank .block .in .title1 p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #e80808;
+    line-height: 14.67vw;
+}
+
+.myWalletChangeBank .but {
+    width: 92.53vw;
+    height: 12.27vw;
+    background-color: #257aef;
+    border-radius: 6.13vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 12vw;
+}
+
+.myWalletChangeBank .but p {
+    font-family: PingFang-SC-Medium;
+    font-size: 4.53vw;
+    color: #ffffff;
+    line-height: 12.27vw;
+}
+
+
+/*我的-我的钱包-更换银行卡*/
+
+
+/*我的-我的钱包-提现*/
+
+.myWalletExtract .bankName {
+    width: 100vw;
+    height: 25vw;
+    background-color: #fff;
+}
+
+.myWalletExtract .bankName .in {
+    width: 92.53vw;
+    height: 25vw;
+    border-bottom: 0.2vw #e5e5e5 solid;
+    margin: 0 auto;
+    padding-top: 6.8vw;
+}
+
+.myWalletExtract .bankName .in .money_bank_logo {
+    width: 9.07vw;
+    height: 9.07vw;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3vw;
+}
+
+.myWalletExtract .bankName .in .right {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.myWalletExtract .bankName .in .right .name {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.27vw;
+    color: #33393f;
+}
+
+.myWalletExtract .bankName .in .right .tial {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.27vw;
+    color: #a4a6aa;
+}
+
+.myWalletExtract .num {
+    width: 100vw;
+    height: 40vw;
+    background-color: #fff;
+}
+
+.myWalletExtract .num .num_in {
+    height: 40vw;
+    width: 92.53vw;
+    margin: 0 auto;
+    border-bottom: 0.2vw #e5e5e5 solid;
+}
+
+.myWalletExtract .num .num_in .left {
+    display: inline-block;
+    vertical-align: middle;
+    height: 40vw;
+    width: 87vw;
+}
+
+.myWalletExtract .num .num_in .left .one {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #64676c;
+    margin-top: 5vw;
+}
+
+.myWalletExtract .num .num_in .left .two {
+    font-family: PingFang-SC-Medium;
+    font-size: 13.33vw;
+    color: #1e2225;
+    margin-top: 2vw;
+}
+
+.myWalletExtract .num .num_in .left .three {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #666666;
+    margin-top: 1vw;
+}
+
+.myWalletExtract .num .num_in .left span {
+    color: #257aef;
+}
+
+.myWalletExtract .num .num_in .off_advertising {
+    display: inline-block;
+    vertical-align: middle;
+    width: 4vw;
+    height: 4vw;
+}
+
+.myWalletExtract .extract {
+    width: 100vw;
+    height: 11vw;
+    background-color: #fff;
+    padding: 0vw 3.87vw;
+}
+
+.myWalletExtract .extract .left {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #a4a6aa;
+    line-height: 11vw;
+    float: left;
+}
+
+.myWalletExtract .extract .right {
+    float: right;
+    font-family: PingFang-SC-Regular;
+    font-size: 3.73vw;
+    color: #e00a0a;
+    line-height: 11vw;
+}
+
+.myWalletExtract .but {
+    width: 92.53vw;
+    height: 12.27vw;
+    background-color: #257aef;
+    border-radius: 0.53vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 7.73vw;
+}
+
+.myWalletExtract .but p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4.53vw;
+    color: #ffffff;
+    line-height: 12.27vw;
+}
+
+
+/*我的-我的钱包-提现*/
+
+
+/*我的-我的钱包-提现成功*/
+
+.myWalletExtractSuccess .conten {
+    background-image: url(../assets/imgs/money_bank_success_bg@3x.png);
+    width: 92.53vw;
+    height: 83.47vw;
+    margin: 0 auto;
+    background-size: 92.53vw 83.47vw;
+    margin-top: 5vw;
+}
+
+.myWalletExtractSuccess .conten .up {
+    text-align: center;
+    height: 62.8vw;
+    padding-top: 8vw;
+}
+
+.myWalletExtractSuccess .conten .up .money_succeed {
+    width: 19.2vw;
+    height: 19.2vw;
+}
+
+.myWalletExtractSuccess .conten .up .title {
+    font-family: PingFang-SC-Medium;
+    font-size: 4.8vw;
+    color: #000000;
+    margin: 1vw 0vw 4vw 0vw;
+}
+
+.myWalletExtractSuccess .conten .up .one {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.47vw;
+    color: #999999;
+}
+
+.myWalletExtractSuccess .conten .down {
+    height: 20.53vw;
+    padding: 4.5vw;
+}
+
+.myWalletExtractSuccess .conten .down .left {
+    float: left;
+}
+
+.myWalletExtractSuccess .conten .down .left p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.47vw;
+    color: #000000;
+}
+
+.myWalletExtractSuccess .conten .down .right {
+    float: right;
+    text-align: right;
+}
+
+.myWalletExtractSuccess .conten .down .right .money_bank_logo {
+    width: 5.33vw;
+    height: 5.33vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.myWalletExtractSuccess .conten .down .right span {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.47vw;
+    color: #999999;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.myWalletExtractSuccess .conten .down .right p {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.47vw;
+    color: #999999;
+}
+
+.myWalletExtractSuccess .but {
+    width: 92.53vw;
+    height: 12.27vw;
+    background-color: #257aef;
+    border-radius: 6.13vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 9.33vw;
+}
+
+.myWalletExtractSuccess .but p {
+    font-family: PingFang-SC-Medium;
+    font-size: 4.53vw;
+    color: #ffffff;
+    line-height: 12.27vw;
+}
+
+
+/*我的-我的钱包-提现成功*/
+
+
+/*我的-个人主页/个人主页*/
+
+.personalHomepage .haed {
+    width: 100vw;
+    height: 56.4vw;
+    border-bottom: 0.2vw #e5e5e5 solid;
+    margin-bottom: 3vw;
+}
+
+.personalHomepage .haed .up {
+    width: 100vw;
+    height: 17.07vw;
+    background-color: #ffffff;
+    padding: 5.5vw 3.73vw 0vw 3.73vw;
+}
+
+.personalHomepage .haed .up .back_icon {
+    width: 10vw;
+    height: 11vw;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 3.5vw;
+}
+
+.personalHomepage .haed .up .back_icon img {
+    width: 2.13vw;
+    height: 4vw;
+}
+
+.personalHomepage .haed .up .serch_me {
+    width: 10vw;
+    height: 10vw;
+    text-align: center;
+    padding-top: 3.5vw;
+    float: right;
+}
+
+.personalHomepage .haed .up .serch_me img {
+    width: 4.13vw;
+    height: 4.53vw;
+}
+
+.personalHomepage .haed .up .more {
+    width: 10vw;
+    height: 9vw;
+    text-align: center;
+    padding-top: 3.5vw;
+    float: right;
+}
+
+.personalHomepage .haed .up .more img {
+    width: 5.33vw;
+    height: 1.07vw;
+}
+
+.personalHomepage .haed .two {
+    width: 100vw;
+    margin-top: 2vw;
+    padding: 0vw 3.73vw;
+}
+
+.personalHomepage .haed .two .me_header {
+    width: 17.07vw;
+    height: 17.07vw;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2vw;
+}
+
+.personalHomepage .haed .two .right {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.personalHomepage .haed .two .right .name {
+    font-family: PingFang-SC-Bold;
+    font-size: 4.8vw;
+    color: #333333;
+    font-weight: 550;
+    margin-bottom: 3vw;
+}
+
+.personalHomepage .haed .two .right .con {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #999999;
+}
+
+.personalHomepage .haed .down {
+    width: 100vw;
+    margin-top: 5vw;
+    padding-right: 3.73vw;
+}
+
+.personalHomepage .haed .down .follow {
+    width: 20vw;
+    float: left;
+    text-align: center;
+}
+
+.personalHomepage .haed .down .follow .num {
+    font-family: PingFang-SC-Bold;
+    font-size: 4.27vw;
+    color: #333333;
+    font-weight: 550;
+    margin-bottom: 1vw;
+}
+
+.personalHomepage .haed .down .follow .nane {
+    font-family: PingFang-SC-Regular;
+    font-size: 3.2vw;
+    color: #999999;
+}
+
+.personalHomepage .haed .down .right {
+    // width: 26.27vw;
+    height: 9.07vw;
+    background-color: #257aef;
+    border-radius: 4.53vw;
+    float: right;
+    text-align: center;
+    padding: 0vw 5vw;
+}
+
+.personalHomepage .haed .down .right .add_attention {
+    display: inline-block;
+    vertical-align: middle;
+    width: 3.73vw;
+    height: 3.73vw;
+}
+
+.personalHomepage .haed .down .right p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #ffffff;
+    line-height: 9.07vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.personalHomepage .haed .down .personal_letter {
+    float: right;
+    width: 9.07vw;
+    height: 9.07vw;
+    margin-left: 2.67vw;
+}
+
+
+/*我的-个人主页/个人主页*/
+
+
+/*我的-个人主页-编辑资料*/
+
+.personalHomepageEdit .block {
+    width: 100vw;
+    height: 21.6vw;
+    background-color: #fff;
+}
+
+.personalHomepageEdit .block .in {
+    width: 92.53vw;
+    margin: 0 auto;
+    height: 21.6vw;
+    border-bottom: 0.2vw #e5e5e5 solid;
+}
+
+.personalHomepageEdit .block .in .left {
+    height: 21.6vw;
+    width: 20vw;
+    float: left;
+}
+
+.personalHomepageEdit .block .in .left p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #33393f;
+    line-height: 21.6vw;
+}
+
+.personalHomepageEdit .block1 .right,
+.personalHomepageEdit .block .in .right {
+    float: right;
+}
+
+.personalHomepageEdit .block .in .right .me_header {
+    width: 17.07vw;
+    height: 17.07vw;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 1.73vw;
+}
+
+.personalHomepageEdit .block .in .right .arrow_fb {
+    width: 1.73vw;
+    height: 2.93vw;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2vw;
+}
+
+.personalHomepageEdit .block1 {
+    width: 100vw;
+    height: 14.67vw;
+    background-color: #fff;
+    padding: 0vw 3.73vw;
+}
+
+.personalHomepageEdit .block1 .in {
+    width: 92.53vw;
+    margin: 0 auto;
+    height: 14.67vw;
+    border-bottom: 0.2vw #e5e5e5 solid;
+}
+
+.personalHomepageEdit .block1 .left {
+    height: 14.67vw;
+    width: 20vw;
+    float: left;
+}
+
+.personalHomepageEdit .block1 .left p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #33393f;
+    line-height: 14.67vw;
+}
+
+.personalHomepageEdit .block1 .right .arrow_fb {
+    width: 1.73vw;
+    height: 2.93vw;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2vw;
+}
+
+.personalHomepageEdit .block1 .right p {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 14.67vw;
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #64676c;
+}
+
+
+/*我的-个人主页-编辑资料*/
+
+
+/*个人主页-私信*/
+
+.personalHomepageLetter .time {
+    text-align: center;
+    font-family: PingFang-SC-Regular;
+    font-size: 2.67vw;
+    color: #a4a6aa;
+    margin-top: 6vw;
+    margin-bottom: 4vw;
+}
+
+.personalHomepageLetter .left {
+    text-align: left;
+    margin-left: 3.73vw;
+}
+
+.personalHomepageLetter .left .me_header {
+    width: 10.27vw;
+    height: 10.67vw;
+    float: left;
+    margin-right: 1vw;
+}
+
+.personalHomepageLetter .left .icon_w {
+    width: 1.6vw;
+    height: 2.13vw;
+    float: left;
+}
+
+.personalHomepageLetter .left .block {
+    padding: 3vw;
+    background-color: #fff;
+    display: table;
+    max-width: 66.07vw;
+    border-radius: 0vw 1.87vw 1.87vw 1.87vw;
+}
+
+.personalHomepageLetter .left .block p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #333333;
+}
+
+.personalHomepageLetter .right {
+    float: right;
+    margin-right: 3.73vw;
+    // text-align: right;
+}
+
+.personalHomepageLetter .right .con {
+    float: right;
+    display: table;
+}
+
+.personalHomepageLetter .right .con .block {
+    max-width: 73.07vw;
+    background-color: #257aef;
+    border-radius: 1.87vw 0vw 1.87vw 1.87vw;
+    padding: 3vw;
+    display: table;
+    float: left;
+}
+
+.personalHomepageLetter .right .con .block p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #ffffff;
+}
+
+.personalHomepageLetter .right .me_header {
+    width: 10.67vw;
+    height: 10.67vw;
+    float: right;
+    margin-left: 1vw;
+}
+
+.personalHomepageLetter .right .icon_b {
+    width: 1.6vw;
+    height: 2.13vw;
+    // float: right;
+    float: left;
+}
+
+.footer {
+    width: 100vw;
+    height: 13.07vw;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    padding: 2.4vw 3.73vw;
+}
+
+.footer input {
+    border: none;
+    width: 74.93vw;
+    height: 8.27vw;
+    background-color: #f0f1f2;
+    border-radius: 4.13vw;
+    float: left;
+    margin-right: 2.3vw;
+}
+
+.footer .right {
+    height: 8.27vw;
+    background-color: #e7f1ff;
+    border-radius: 4.13vw;
+    text-align: center;
+    display: table;
+    padding: 0vw 3.73vw;
+}
+
+.footer .right p {
+    font-family: PingFang-SC-Regular;
+    font-size: 4vw;
+    color: #257aef;
+    line-height: 8.27vw;
+}
+
+
+/*个人主页-私信*/

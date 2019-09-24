@@ -1,0 +1,129 @@
+<!--
+  Generated template for the MySignUpPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- <ion-header>
+
+  <ion-navbar>
+    <ion-title>mySignUp</ion-title>
+  </ion-navbar>
+
+</ion-header> -->
+
+<!-- 我的-报名的赛事 -->
+<ion-content>
+    <div class="mySignUp">
+        <div class="myBrowse">
+            <div class="up">
+                <a href="../#/home">
+                    <div class="back_icon">
+                        <img src="../../assets/imgs/back_icon@3x.png">
+                    </div>
+                </a>
+                <div class="title">
+                    <p>报名的赛事</p>
+                </div>
+                <!-- <div class="edit">
+                <p>编辑</p>
+            </div> -->
+            </div>
+        </div>
+        <div class="signup_nav">
+            <div (click)="touchMe(1)" *ngIf="touchID == 1;else elseOne">
+                <p class="yes">报名中</p>
+            </div>
+            <ng-template #elseOne>
+                <div (click)="touchMe(1)">
+                    <p class="no">报名中</p>
+                </div>
+            </ng-template>
+            <div (click)="touchMe(2)" *ngIf="touchID == 2;else elseTwo">
+                <p class="yes">投票中</p>
+            </div>
+            <ng-template #elseTwo>
+                <div (click)="touchMe(2)">
+                    <p class="no">投票中</p>
+                </div>
+            </ng-template>
+            <div (click)="touchMe(3)" *ngIf="touchID == 3;else elseThere">
+                <p class="yes">已结束</p>
+            </div>
+            <ng-template #elseThere>
+                <div (click)="touchMe(3)">
+                    <p class="no">已结束</p>
+                </div>
+            </ng-template>
+        </div>
+        <!-- 报名中 -->
+        <a *ngIf="touchID == 1">
+            <div class="home_competition">
+                <p>2019年第十一届全国大学生数学竞赛</p>
+                <div class="img">
+                    <img src="assets/imgs/game_img@3x.png" class="game_img">
+                    <div class="end_time">
+                        <p>距离截止还有12天</p>
+                    </div>
+                </div>
+                <div class="enrollees" style="border-bottom: none">
+                    <div class="enrollees_img">
+                        <img src="assets/imgs/header_game@3x.png">
+                    </div>
+                    <p>32人报名了比赛</p>
+                    <div class="registration_fee">
+                        <span class="enrollees_money">30</span>
+                        <span class="douli">斗粒</span>
+                        <span class="ren">/人</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gray"></div>
+        </a>
+
+        <!-- 投票中 -->
+        <a *ngIf="touchID == 2">
+            <div class="home_competition">
+                <p>2019年第十一届全国大学生数学竞赛</p>
+                <div class="img">
+                    <img src="assets/imgs/game_img@3x.png" class="game_img">
+                    <div class="end_time">
+                        <p>投票中</p>
+                    </div>
+                </div>
+                <div class="enrollees" style="border-bottom: none">
+                    <div class="enrollees_img">
+                        <img src="assets/imgs/header_game@3x.png">
+                    </div>
+                    <p>32人报名了比赛</p>
+                    <div class="registration_fee">
+                        <p>298,712,231人投票</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gray"></div>
+        </a>
+
+        <!-- 已结束 -->
+        <a href="../#/match-result" *ngIf="touchID == 3">
+            <div class="home_competition">
+                <p>2019年第十一届全国大学生数学竞赛</p>
+                <div class="img">
+                    <img src="assets/imgs/game_img@3x.png" class="game_img">
+                    <div class="end">
+                        <p>已结束</p>
+                    </div>
+                </div>
+                <div class="enrollees" style="border-bottom: none">
+                    <img src="assets/imgs/champion@3x.png" class="champion">
+                    <img src="assets/imgs/header_game@3x.png" class="header_game">
+                    <p>细雨依依</p>
+                    <div class="registration_fee">
+                        <p class="vote">298,712,231人投票</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gray"></div>
+        </a>
+    </div>
+</ion-content>

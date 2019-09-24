@@ -1,0 +1,681 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- <ion-header>
+
+    <ion-navbar>
+        <ion-title>home</ion-title>
+    </ion-navbar>
+
+</ion-header>
+ -->
+<!-- 首页 -->
+<ion-content>
+    <div class="body" *ngIf="touchTabsID == 1">
+        <div class="home_search">
+            <div class="search">
+                <input type="text" placeholder="51岁怎样补交社保">
+                <img src="assets/imgs/serch_me@3x.png">
+            </div>
+            <div class="elease">
+                <img src="assets/imgs/fb_icon@3x.png">
+                <p>发布</p>
+            </div>
+        </div>
+        <div class="home_nav">
+            <li class="yes" (click)="touchMe(1)" *ngIf="touchID == 1;else elseOne">推荐</li>
+            <ng-template #elseOne>
+                <li (click)="touchMe(1)">推荐</li>
+            </ng-template>
+            <li class="yes" (click)="touchMe(2)" *ngIf="touchID == 2;else elseTwo">百家畅言</li>
+            <ng-template #elseTwo>
+                <li (click)="touchMe(2)">百家畅言</li>
+            </ng-template>
+            <li class="yes" (click)="touchMe(3)" *ngIf="touchID == 3;else elseThree">附近</li>
+            <ng-template #elseThree>
+                <li (click)="touchMe(3)">附近</li>
+            </ng-template>
+            <li class="yes" (click)="touchMe(4)" *ngIf="touchID == 4;else elseFour">赛事</li>
+            <ng-template #elseFour>
+                <li (click)="touchMe(4)">赛事</li>
+            </ng-template>
+            <li class="yes" (click)="touchMe(5)" *ngIf="touchID == 5;else elseFive">直播</li>
+            <ng-template #elseFive>
+                <li (click)="touchMe(5)">直播</li>
+            </ng-template>
+            <li class="yes" (click)="touchMe(6)" *ngIf="touchID == 6;else elseSix">热门</li>
+            <ng-template #elseSix>
+                <li (click)="touchMe(6)">热门</li>
+            </ng-template>
+        </div>
+
+        <!-- 推荐开始 -->
+        <div style="margin-top: 33vw;" *ngIf="touchID == 1">
+            <div class="home_banner">
+                <img src="assets/imgs/banner@3x.png">
+            </div>
+
+            <div class="home_competition">
+                <p>2019年第十一届全国大学生数学竞赛</p>
+                <div class="img">
+                    <img src="assets/imgs/game_img@3x.png" class="game_img">
+                    <div class="end_time">
+                        <p>距离截止还有12天</p>
+                    </div>
+                </div>
+                <div class="enrollees">
+                    <div class="enrollees_img">
+                        <img src="assets/imgs/header_game@3x.png">
+                    </div>
+                    <p>32人报名了比赛</p>
+                    <div class="registration_fee">
+                        <span class="enrollees_money">30</span>
+                        <span class="douli">斗粒</span>
+                        <span class="ren">/人</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- new_1 为多图样式，new_2 为单图样式，new_3 为无图样式 -->
+            <a href="../#/article-details">
+                <div class="new_1">
+                    <p class="new_1_title">香港混乱48小时：激进示威者五种手段对 付市民</p>
+                    <div class="new_1_img">
+                        <img src="assets/imgs/img_new@3x.png">
+                    </div>
+                    <p class="author">王者天黑君&nbsp;&nbsp;224条评论&nbsp;&nbsp;45分钟之前</p>
+                </div>
+            </a>
+            <!-- new_1 为多图样式，new_2 为单图样式，new_3 为无图样式 -->
+            <div class="broadcast">
+                <div class="anchor">
+                    <div class="anchor_img">
+                        <img src="assets/imgs/header_home@3x.png" class="header_home">
+                    </div>
+                    <div class="anchor_p">
+                        <p class="name">篮球少年爱唱歌</p>
+                        <p class="who">威海燕莎商业管理有限公司店长</p>
+                    </div>
+                    <div class="broadcasting">
+                        <img src="assets/imgs/play_icon@3x.png">
+                        <p>直播中</p>
+                    </div>
+                </div>
+                <div class="room">
+                    <p class="title">山西男篮一年合约签贾马尔-富兰克林</p>
+                    <div class="img">
+                        <img src="assets/imgs/new_img@3x.png">
+                        <div class="popularity">
+                            <p>1.8万人气</p>
+                        </div>
+                        <img src="assets/imgs/foreshow_play@3x.png" class="foreshow_play">
+                    </div>
+                </div>
+            </div>
+            <!-- new_1 为多图样式，new_2 为单图样式，new_3 为无图样式 -->
+            <div class="new_2">
+                <div class="new_2_title">
+                    <p class="title">成也萧何，败萧何！江小白 就这样被打败了？</p>
+                    <p class="author">三联生活里&nbsp;&nbsp;56条评论&nbsp;&nbsp;3小时之前</p>
+                </div>
+                <div class="new_2_img">
+                    <img src="assets/imgs/img_new@3x.png">
+                </div>
+            </div>
+            <div class="new_3">
+                <p class="title">Selina失声1年：“我被火烧、毁容、离婚、 现在唱不了歌了。”</p>
+                <p class="author">InsDaily&nbsp;&nbsp;56条评论&nbsp;&nbsp;3小时之前</p>
+            </div>
+            <!-- new_1 为多图样式，new_2 为单图样式，new_3 为无图样式 -->
+            <a href="../#/broadcast-details">
+                <div class="broadcast">
+                    <div class="anchor">
+                        <div class="anchor_img">
+                            <img src="assets/imgs/header_home@3x.png" class="header_home">
+                        </div>
+                        <div class="anchor_p">
+                            <p class="name">天黑请闭眼</p>
+                            <p class="who">三农领域创作者</p>
+                        </div>
+                        <div class="notice">
+                            <p>直播预告</p>
+                        </div>
+                    </div>
+                    <div class="notice_time">
+                        <img src="assets/imgs/play_time@3x.png">
+                        <p>开播时间：2019-07-01 18:00</p>
+                    </div>
+                    <div class="room">
+                        <p class="title">我们与CJ提前续约，签下一份多年合同</p>
+                        <div class="img">
+                            <img src="assets/imgs/new_img@3x.png">
+                            <img src="assets/imgs/foreshow_play@3x.png" class="foreshow_play">
+                            <p class="expect">敬请期待</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- 推荐结束 -->
+
+
+
+
+
+
+        <!-- 百家畅言开始 -->
+        <div *ngIf="touchID == 2" style="margin-top: 27vw;">
+            <div class="new_3">
+                <p class="title">香港社会急需恢复理性安宁</p>
+                <p class="author">InsDaily&nbsp;&nbsp;56条评论&nbsp;&nbsp;6万阅读</p>
+            </div>
+            <div class="new_1">
+                <p class="new_1_title">中国“刀锋战士”上演真实版“湄公河行动”！</p>
+                <div class="new_1_img">
+                    <img src="assets/imgs/img_new@3x.png">
+                    <img src="assets/imgs/img_new@3x.png">
+                    <img src="assets/imgs/img_new@3x.png">
+                </div>
+                <p class="author">落伍者2017&nbsp;&nbsp;224条评论&nbsp;&nbsp;4万阅读</p>
+            </div>
+            <div class="new_3">
+                <div class="question_lable">
+                    <p>问答</p>
+                </div>
+                <p class="title">中国有什么好玩又冷门的城市？</p>
+                <p class="author">花生&nbsp;&nbsp;35人回答&nbsp;&nbsp;21人收藏</p>
+            </div>
+            <div class="new_3">
+                <div class="question_lable">
+                    <p>问答</p>
+                </div>
+                <p class="title">为什么孙杨领奖台上风波不断？</p>
+                <p class="author">三联生活里&nbsp;&nbsp;121人回答&nbsp;&nbsp;68人收藏</p>
+            </div>
+            <div class="new_3">
+                <p class="title">Selina失声1年：“我被火烧、毁容、离婚、 现在唱不了歌了。”</p>
+                <img src="assets/imgs/new_img@3x.png" class="new_img">
+                <p class="author">落伍者2017&nbsp;&nbsp;224条评论&nbsp;&nbsp;4万阅读</p>
+            </div>
+            <div class="new_2">
+                <div class="new_2_title">
+                    <p class="title">重庆保时捷女司机掌掴男 子：嚣张的背后是权力</p>
+                    <p class="author">三联生活里&nbsp;&nbsp;56条评论&nbsp;&nbsp;6万阅读</p>
+                </div>
+                <div class="new_2_img">
+                    <img src="assets/imgs/img_new@3x.png">
+                </div>
+            </div>
+        </div>
+        <!-- 百家畅言结束 -->
+
+
+
+
+
+
+        <!-- 附近开始 -->
+        <div *ngIf="touchID == 3" style="margin-top: 31vw;">
+            <div class="home_location">
+                <img src="assets/imgs/address@3x.png">
+                <span>成都</span>
+            </div>
+            <div class="new_1">
+                <p class="new_1_title">这是史上最强的友谊赛！四大豪门群星聚 首，经典再难被复制
+                </p>
+                <div class="new_1_img">
+                    <img src="assets/imgs/img_new@3x.png">
+                    <img src="assets/imgs/img_new@3x.png">
+                    <img src="assets/imgs/img_new@3x.png">
+                </div>
+                <p class="author">落伍者2017&nbsp;&nbsp;224条评论&nbsp;&nbsp;4万阅读</p>
+            </div>
+            <div class="new_2">
+                <div class="new_2_title">
+                    <p class="title">成也萧何，败萧何！江小白 就这样被打败了？</p>
+                    <p class="author">三联生活里&nbsp;&nbsp;56条评论&nbsp;&nbsp;3小时之前</p>
+                </div>
+                <div class="new_2_img">
+                    <img src="assets/imgs/img_new@3x.png">
+                </div>
+            </div>
+            <div class="new_3">
+                <p class="title">Selina失声1年：“我被火烧、毁容、离婚、 现在唱不了歌了。”</p>
+                <img src="assets/imgs/new_img@3x.png" class="new_img">
+                <p class="author">落伍者2017&nbsp;&nbsp;224条评论&nbsp;&nbsp;4万阅读</p>
+            </div>
+        </div>
+
+        <!-- 附近结束 -->
+
+
+
+
+
+        <!-- 赛事开始 -->
+        <div *ngIf="touchID == 4" style="margin-top: 33vw;">
+            <div class="match_nav">
+                <div style="background-color: #257aef" (click)="touchSignUp(1)" *ngIf="touchUp == 1;else elseSignOen">
+                    <p style="color: #ffffff;">报名中</p>
+                </div>
+                <ng-template #elseSignOen>
+                    <div (click)="touchSignUp(1)">
+                        <p>报名中</p>
+                    </div>
+                </ng-template>
+                <div style="background-color: #257aef" (click)="touchSignUp(2)" *ngIf="touchUp == 2;else elseSignTwo">
+                    <p style="color: #ffffff;">投票中</p>
+                </div>
+                <ng-template #elseSignTwo>
+                    <div (click)="touchSignUp(2)">
+                        <p>投票中</p>
+                    </div>
+                </ng-template>
+                <div style="background-color: #257aef" (click)="touchSignUp(3)" *ngIf="touchUp == 3;else elseSignThree">
+                    <p style="color: #ffffff;">已结束</p>
+                </div>
+                <ng-template #elseSignThree>
+                    <div (click)="touchSignUp(3)">
+                        <p>已结束</p>
+                    </div>
+                </ng-template>
+            </div>
+            <!-- 报名中 -->
+            <div class="home_competition" *ngIf="touchUp == 1">
+                <p>2019年第十一届全国大学生数学竞赛</p>
+                <div class="img">
+                    <img src="assets/imgs/game_img@3x.png" class="game_img">
+                    <div class="end_time">
+                        <p>距离截止还有12天</p>
+                    </div>
+                </div>
+                <div class="enrollees">
+                    <div class="enrollees_img">
+                        <img src="assets/imgs/header_game@3x.png">
+                    </div>
+                    <p>32人报名了比赛</p>
+                    <div class="registration_fee">
+                        <span class="enrollees_money">30</span>
+                        <span class="douli">斗粒</span>
+                        <span class="ren">/人</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 投票中 -->
+            <div class="home_competition" *ngIf="touchUp == 2">
+                <p>2019年第十一届全国大学生数学竞赛</p>
+                <div class="img">
+                    <img src="assets/imgs/game_img@3x.png" class="game_img">
+                    <div class="end_time">
+                        <p>投票中</p>
+                    </div>
+                </div>
+                <div class="enrollees">
+                    <div class="enrollees_img">
+                        <img src="assets/imgs/header_game@3x.png">
+                    </div>
+                    <p>32人报名了比赛</p>
+                    <div class="registration_fee">
+                        <p>298,712,231人投票</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 已结束 -->
+            <a href="../#/match-result">
+                <div class="home_competition" *ngIf="touchUp == 3">
+                    <p>2019年第十一届全国大学生数学竞赛</p>
+                    <div class="img">
+                        <img src="assets/imgs/game_img@3x.png" class="game_img">
+                        <div class="end">
+                            <p>已结束</p>
+                        </div>
+                    </div>
+                    <div class="enrollees">
+                        <img src="assets/imgs/champion@3x.png" class="champion">
+                        <img src="assets/imgs/header_game@3x.png" class="header_game">
+                        <p>细雨依依</p>
+                        <div class="registration_fee">
+                            <p class="vote">298,712,231人投票</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- 赛事结束 -->
+
+
+
+
+
+        <!-- 直播开始 -->
+        <div *ngIf="touchID == 5" style="margin-top: 33vw;">
+            <div class="broadcast">
+                <div class="anchor">
+                    <div class="anchor_img">
+                        <img src="assets/imgs/header_home@3x.png" class="header_home">
+                    </div>
+                    <div class="anchor_p">
+                        <p class="name">篮球少年爱唱歌</p>
+                        <p class="who">威海燕莎商业管理有限公司店长</p>
+                    </div>
+                    <div class="broadcasting">
+                        <img src="assets/imgs/play_icon@3x.png">
+                        <p>直播中</p>
+                    </div>
+                </div>
+                <div class="room">
+                    <p class="title">山西男篮一年合约签贾马尔-富兰克林</p>
+                    <div class="img">
+                        <img src="assets/imgs/new_img@3x.png">
+                        <div class="popularity">
+                            <p>1.8万人气</p>
+                        </div>
+                        <img src="assets/imgs/foreshow_play@3x.png" class="foreshow_play">
+                    </div>
+                </div>
+            </div>
+            <div class="broadcast">
+                <div class="anchor">
+                    <div class="anchor_img">
+                        <img src="assets/imgs/header_home@3x.png" class="header_home">
+                    </div>
+                    <div class="anchor_p">
+                        <p class="name">天黑请闭眼</p>
+                        <p class="who">三农领域创作者</p>
+                    </div>
+                    <div class="notice">
+                        <p>直播预告</p>
+                    </div>
+                </div>
+                <div class="notice_time">
+                    <img src="assets/imgs/play_time@3x.png">
+                    <p>开播时间：2019-07-01 18:00</p>
+                </div>
+                <div class="room">
+                    <p class="title">我们与CJ提前续约，签下一份多年合同</p>
+                    <div class="img">
+                        <img src="assets/imgs/new_img@3x.png">
+                        <img src="assets/imgs/foreshow_play@3x.png" class="foreshow_play">
+                        <p class="expect">敬请期待</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 直播结束 -->
+
+
+
+
+
+        <!-- 热门开始 -->
+        <!-- 热门结束 -->
+
+
+    </div>
+    <!-- 首页 -->
+
+
+
+    <!-- 北斗公论 -->
+    <div class="body" *ngIf="touchTabsID == 2">
+        <div class="home_search">
+            <div class="search">
+                <input type="text" placeholder="51岁怎样补交社保">
+                <img src="assets/imgs/serch_me@3x.png">
+            </div>
+            <div class="elease">
+                <img src="assets/imgs/fb_icon@3x.png">
+                <p>发布</p>
+            </div>
+        </div>
+        <div *ngIf="touchTabsID == 2" style="margin-top: 16vw;">
+            <div class="new_3">
+                <div class="question_lable">
+                    <p>问答</p>
+                </div>
+                <p class="title">中国有什么好玩又冷门的城市？</p>
+                <p class="author">花生&nbsp;&nbsp;35人回答&nbsp;&nbsp;21人收藏</p>
+            </div>
+        </div>
+        <div class="new_1">
+            <p class="new_1_title">香港混乱48小时：激进示威者五种手段对 付市民</p>
+            <div class="new_1_img">
+                <img src="assets/imgs/img_new@3x.png">
+            </div>
+            <p class="author">王者天黑君&nbsp;&nbsp;224条评论&nbsp;&nbsp;45分钟之前</p>
+        </div>
+        <div class="new_2">
+            <div class="new_2_title">
+                <p class="title">成也萧何，败萧何！江小白 就这样被打败了？</p>
+                <p class="author">三联生活里&nbsp;&nbsp;56条评论&nbsp;&nbsp;3小时之前</p>
+            </div>
+            <div class="new_2_img">
+                <img src="assets/imgs/img_new@3x.png">
+            </div>
+        </div>
+        <div class="new_3">
+            <p class="title">Selina失声1年：“我被火烧、毁容、离婚、 现在唱不了歌了。”</p>
+            <img src="assets/imgs/new_img@3x.png" class="new_img">
+            <p class="author">落伍者2017&nbsp;&nbsp;224条评论&nbsp;&nbsp;4万阅读</p>
+        </div>
+        <div class="new_3">
+            <p class="title">Selina失声1年：“我被火烧、毁容、离婚、 现在唱不了歌了。”</p>
+            <p class="author">InsDaily&nbsp;&nbsp;56条评论&nbsp;&nbsp;3小时之前</p>
+        </div>
+        <div class="broadcast">
+            <div class="anchor">
+                <div class="anchor_img">
+                    <img src="assets/imgs/header_home@3x.png" class="header_home">
+                </div>
+                <div class="anchor_p">
+                    <p class="name">篮球少年爱唱歌</p>
+                    <p class="who">威海燕莎商业管理有限公司店长</p>
+                </div>
+                <div class="broadcasting">
+                    <img src="assets/imgs/play_icon@3x.png">
+                    <p>直播中</p>
+                </div>
+            </div>
+            <div class="room">
+                <p class="title">山西男篮一年合约签贾马尔-富兰克林</p>
+                <div class="img">
+                    <img src="assets/imgs/new_img@3x.png">
+                    <div class="popularity">
+                        <p>1.8万人气</p>
+                    </div>
+                    <img src="assets/imgs/foreshow_play@3x.png" class="foreshow_play">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 北斗公论 -->
+
+
+
+
+    <!-- 消息 -->
+    <div class="body" *ngIf="touchTabsID == 3">
+        <div class="new_up">
+            <p>消息</p>
+        </div>
+        <div class="new_nav">
+            <div>
+                <img src="../../assets/imgs/share_message@3x.png">
+                <p>转发</p>
+            </div>
+            <div>
+                <img src="../../assets/imgs/inform_massage@3x.png">
+                <p>评论</p>
+            </div>
+            <div>
+                <img src="../../assets/imgs/like_massage@3x.png">
+                <p>点赞</p>
+            </div>
+            <div>
+                <img src="../../assets/imgs/invitation_message@3x.png">
+                <p>邀请</p>
+            </div>
+        </div>
+        <div class="notice">
+            <div class="block">
+                <div class="img">
+                    <img src="../../assets/imgs/game_message@3x.png" class="game_message">
+                </div>
+                <div class="content">
+                    <span class="name"><b>赛事通知</b></span>
+                    <span class="time">7月23日</span>
+                    <p class="say">通知内容通知内容通知内容</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 消息 -->
+
+
+
+
+    <!-- 我的 -->
+    <div class="body" *ngIf="touchTabsID == 4">
+        <div class="hearder">
+            <img src="../../assets/imgs/me_bg@3x.png">
+            <a href="../#/personal-homepage">
+                <div class="gotoMy_home">
+                    <p>个人主页</p>
+                    <img src="../../assets/imgs/arrows@3x.png">
+                </div>
+            </a>
+            <div class="portrait">
+                <img src="../../assets/imgs/me_header@3x.png" class="me_header">
+            </div>
+            <p class="name"><b>养一只叫莱卡的狗</b></p>
+            <p class="word">如果你感到悲伤我可以陪你去晒太阳</p>
+        </div>
+        <div class="data">
+            <a href="../#/my-release">
+                <div class="block">
+                    <p class="number"><b>136</b></p>
+                    <p class="name">发布</p>
+                </div>
+            </a>
+            <a href="../#/my-follow">
+                <div class="block">
+                    <p class="number"><b>2400</b></p>
+                    <p class="name">关注</p>
+                </div>
+            </a>
+            <a href="../#/my-fans">
+                <div class="block">
+                    <p class="number"><b>25</b></p>
+                    <p class="name">赞友</p>
+                </div>
+            </a>
+        </div>
+        <div class="bg"></div>
+        <div class="my_nav">
+            <a href="../#/my-collection">
+                <div class="block">
+                    <img src="../../assets/imgs/collect_me@3x.png">
+                    <p>我的收藏</p>
+                </div>
+            </a>
+            <a href="../#/my-comment">
+                <div class="block">
+                    <img src="../../assets/imgs/comment_me@3x.png">
+                    <p>我的评论</p>
+                </div>
+            </a>
+            <a href="../#/my-likes">
+                <div class="block">
+                    <img src="../../assets/imgs/like_me@3x.png">
+                    <p>我的点赞</p>
+                </div>
+            </a>
+            <a href="../#/my-browse">
+                <div class="block">
+                    <img src="../../assets/imgs/browse_me@3x.png">
+                    <p>浏览记录</p>
+                </div>
+            </a>
+        </div>
+        <div class="gray" style="margin-bottom: 4.2vw"></div>
+        <div class="mine">
+            <a href="../#/my-wallet">
+                <div class="my">
+                    <img src="../../assets/imgs/wallet_me@3x.png" class="wallet_me">
+                    <p>我的钱包</p>
+                    <img src="../../assets/imgs/arrow_fb@3x.png" class="arrow_fb">
+                </div>
+            </a>
+            <a href="../#/my-sign-up">
+                <div class="my">
+                    <img src="../../assets/imgs/game_me@3x.png" class="wallet_me">
+                    <p>报名的赛事</p>
+                    <img src="../../assets/imgs/arrow_fb@3x.png" class="arrow_fb">
+                </div>
+            </a>
+            <div class="my">
+                <img src="../../assets/imgs/tickling_me@3x.png" class="wallet_me">
+                <p>意见反馈</p>
+                <img src="../../assets/imgs/arrow_fb@3x.png" class="arrow_fb">
+            </div>
+            <a href="../#/my-set-up">
+                <div class="my">
+                    <img src="../../assets/imgs/set_me@3x.png" class="wallet_me">
+                    <p>系统设置</p>
+                    <img src="../../assets/imgs/arrow_fb@3x.png" class="arrow_fb">
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- 我的 -->
+</ion-content>
+<footer class="home_tabs">
+    <div (click)="touchTabs(1)" *ngIf="touchTabsID == 1;else elsehome">
+        <img src="assets/imgs/home_sel@3x.png">
+        <p style="color: #3366cc;">首页</p>
+    </div>
+    <ng-template #elsehome>
+        <div (click)="touchTabs(1)">
+            <img src="assets/imgs/home_nor@3x.png">
+            <p>首页</p>
+        </div>
+    </ng-template>
+    <div (click)="touchTabs(2)" *ngIf="touchTabsID == 2;else elsebeidou">
+        <img src="assets/imgs/bd_sel@3x.png">
+        <p style="color: #3366cc;">北斗公论</p>
+    </div>
+    <ng-template #elsebeidou>
+        <div (click)="touchTabs(2)">
+            <img src="assets/imgs/bd_nor@3x.png">
+            <p>北斗公论</p>
+        </div>
+    </ng-template>
+    <div (click)="touchTabs(3)" *ngIf="touchTabsID == 3;else elsenews">
+        <img src="assets/imgs/message_sel@3x.png">
+        <p style="color: #3366cc;">消息</p>
+    </div>
+    <ng-template #elsenews>
+        <div (click)="touchTabs(3)">
+            <img src="assets/imgs/message_nor@3x.png">
+            <p>消息</p>
+        </div>
+    </ng-template>
+    <div (click)="touchTabs(4)" *ngIf="touchTabsID == 4;else elsemy">
+        <img src="assets/imgs/me_Sel@3x.png">
+        <p style="color: #3366cc;">我的</p>
+    </div>
+    <ng-template #elsemy>
+        <div (click)="touchTabs(4)">
+            <img src="assets/imgs/me_nor@3x.png">
+            <p>我的</p>
+        </div>
+    </ng-template>
+</footer>
